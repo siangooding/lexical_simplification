@@ -13,9 +13,11 @@ pip install -r requirements.txt
 ```
 
 # Usage
+The recursive simplification function is defined in [recursive_simplification.py](./recursive_simplification.py). An example of applying the system to sentences is included. 
 
+# System Output
 
-
+The system output on the test sets from [Gooding and Kochmar (2019)](https://www.aclweb.org/anthology/D19-1491.pdf) is available in [Sytem Output](./System%20Output).
 
 
 # Citing
