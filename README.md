@@ -4,7 +4,7 @@ This is a system developed for lexical simplification based on the paper by [Goo
 
 Given a sentence the system will identify complex words and recursively simplify the lexical content in a context-aware manner. 
 
-# Requirements
+## Requirements
 
 Requirements can be found in requirements.txt and installed using:
 
@@ -12,15 +12,15 @@ Requirements can be found in requirements.txt and installed using:
 pip install -r requirements.txt
 ```
 
-# Usage
+## Usage
 The recursive simplification function is defined in [recursive_simplification.py](./recursive_simplification.py). An example of applying the system to sentences is included. 
 
-# System Output
+## System Output
 
 The system output on the test sets from [Gooding and Kochmar (2019)](https://www.aclweb.org/anthology/D19-1491.pdf) for the original system is available in [Sytem Output](./System%20Output).
 
 
-# Citing
+## Citing
 
 If you use our model, please kindly cite our paper:
 
