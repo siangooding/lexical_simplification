@@ -1,8 +1,6 @@
 # Lexical Simplification 
 
-This is a system developed for lexical simplification based on the paper by [Gooding and Kochmar (2019)](https://www.aclweb.org/anthology/D19-1491.pdf).
-
-Given a sentence the system will identify complex words and recursively simplify the lexical content in a context-aware manner. 
+This is a system developed for lexical simplification based on the paper by [Gooding and Kochmar (2019)](https://www.aclweb.org/anthology/D19-1491.pdf). Given a sentence the system will identify complex words and recursively simplify the lexical content in a context-aware manner. 
 
 ## Requirements
 
