@@ -17,7 +17,7 @@ The recursive simplification function is defined in [recursive_simplification.py
 
 # System Output
 
-The system output on the test sets from [Gooding and Kochmar (2019)](https://www.aclweb.org/anthology/D19-1491.pdf) is available in [Sytem Output](./System%20Output).
+The system output on the test sets from [Gooding and Kochmar (2019)](https://www.aclweb.org/anthology/D19-1491.pdf) for the original system is available in [Sytem Output](./System%20Output).
 
 
 # Citing
