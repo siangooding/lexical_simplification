@@ -1,0 +1,1328 @@
+Comparing: Amazon-adv-10 and Amazon-adv-8
+
+Original:		 world ’ s biggest forest , the longest
+0.5 threshold:	 world ’ s biggest woodland , the longest
+=====
+Original:		 or the largest internet retailer – and which
+0.5 threshold:	 or the largest internet grocer – and which
+=====
+Original:		 These questions have risen to the fore
+0.8 threshold:	 These questions have soared to the fore
+0.5 threshold:	 These questions have soared to the fore
+=====
+Original:		 an arcane , but hugely important , debate
+0.5 threshold:	 an arcane , but highly important , debate
+=====
+Original:		 lodged objections to a bid made by the
+0.8 threshold:	 lodged objections to a counteroffer made by the
+0.5 threshold:	 lodged objections to a counteroffer made by the
+=====
+Original:		 prime new piece of cyberspace : “ .amazon
+0.8 threshold:	 prime new piece of cyberworld : “ .amazon
+0.5 threshold:	 prime new piece of cyberworld : “ .amazon
+=====
+Original:		 a top-level domain name ( currently “ .com
+0.5 threshold:	 a top-level domain name [ currently “ .com
+=====
+Original:		 this internet address for environmental protection , the
+0.8 threshold:	 this internet address for ecological protection , the
+0.5 threshold:	 this internet address for ecological protection , the
+=====
+Original:		 , the promotion of indigenous rights and other
+0.8 threshold:	 , the promotion of native rights and other
+0.5 threshold:	 , the promotion of native rights and other
+=====
+Original:		 .shangrila ” , the issue cuts to the
+0.5 threshold:	 .shangrila ” , the problem cuts to the
+=====
+Original:		 about the purpose and governance of the internet
+0.8 threshold:	 about the purpose and accountability of the internet
+0.5 threshold:	 about the purpose and accountability of the internet
+=====
+Original:		 , the differences between commercial , governmental and
+0.8 threshold:	 , the differences between commerical , govermental and
+0.5 threshold:	 , the differences between commerical , govermental and
+=====
+Original:		 differences between commercial , governmental and other types
+0.8 threshold:	 differences between commerical , govermental and other types
+0.5 threshold:	 differences between commerical , govermental and other types
+=====
+Original:		 of identity were easily distinguished in every internet
+0.8 threshold:	 of identity were easily recognized in every internet
+0.5 threshold:	 of identity were easily recognized in every internet
+=====
+Original:		 or generic top-level domains ( gTLDs ) as
+0.5 threshold:	 or generic top-level domains [ gTLDs ) as
+=====
+Original:		 ) as they are technically known – are
+0.8 threshold:	 ) as they are legally known – are
+0.5 threshold:	 ) as they are legally known – are
+=====
+Original:		 to undergo the biggest expansion since the start
+0.8 threshold:	 to undergo the biggest growth since the start
+0.5 threshold:	 to undergo the biggest growth since the start
+=====
+Original:		 Assigned Names and Numbers ( ICANN ) –
+0.5 threshold:	 Assigned Names and Numbers [ ICANN ) –
+=====
+Original:		 – a US-based non-profit organization that plays a
+0.5 threshold:	 – a US-based non-profit group that plays a
+=====
+Original:		 a key role in cyberspace governance – has
+0.8 threshold:	 a key role in cyberworld governance – has
+0.5 threshold:	 a key role in cyberworld governance – has
+=====
+Original:		 – has received bids ( each reportedly worth
+0.8 threshold:	 – has received bids [ each already worth
+0.5 threshold:	 – has received bids [ each already worth
+=====
+Original:		 received bids ( each reportedly worth almost $
+0.8 threshold:	 received bids [ each already worth almost $
+0.5 threshold:	 received bids [ each already worth almost $
+=====
+Original:		 . But its most contentious application is for
+0.8 threshold:	 . But its most touchy application is for
+0.5 threshold:	 . But its most touchy application is for
+=====
+Original:		 ” application to be withdrawn , saying a
+0.8 threshold:	 ” application to be withheld , saying a
+0.5 threshold:	 ” application to be withheld , saying a
+=====
+Original:		 company should not be assigned a name that
+0.8 threshold:	 company should not be allocated a name that
+0.5 threshold:	 company should not be allocated a name that
+=====
+Original:		 assigned a name that denotes an important geographical
+0.8 threshold:	 allocated a name that implies an important locational
+0.5 threshold:	 allocated a name that implies an important locational
+=====
+Original:		 that denotes an important geographical area that spans
+0.8 threshold:	 that implies an important locational area that spans
+0.5 threshold:	 that implies an important locational area that spans
+=====
+Original:		 private companies to register geographical names as gTLDs
+0.8 threshold:	 private companies to register historical names as gTLDs
+0.5 threshold:	 private companies to register historical names as gTLDs
+=====
+Original:		 names as gTLDs to reinforce their brand strategy
+0.8 threshold:	 names as gTLDs to strengthen their brand plan
+0.5 threshold:	 names as gTLDs to strengthen their brand plan
+=====
+Original:		 to reinforce their brand strategy or to profit
+0.8 threshold:	 to strengthen their brand plan or to profit
+0.5 threshold:	 to strengthen their brand plan or to profit
+=====
+Original:		 the Amazon Cooperation Treaty ( Bolivia , Colombia
+0.5 threshold:	 the Amazon Cooperation Treaty [ Bolivia , Colombia
+=====
+Original:		 top-level domains that take geographical , cultural or
+0.8 threshold:	 top-level domains that take geographic , social or
+0.5 threshold:	 top-level domains that take geographic , social or
+=====
+Original:		 that take geographical , cultural or contested brand
+0.8 threshold:	 that take geographic , social or contested brand
+0.5 threshold:	 that take geographic , social or contested brand
+=====
+Original:		 an expression of its unhappiness that the US
+0.8 threshold:	 an expression of its disquiet that the US
+0.5 threshold:	 an expression of its disquiet that the US
+=====
+Original:		 the US outdoor clothing retailer , Patagonia ,
+0.5 threshold:	 the US outdoor clothing grocer , Patagonia ,
+=====
+Original:		 as a region of spectacular beauty that also
+0.8 threshold:	 as a region of thrilling beauty that also
+0.5 threshold:	 as a region of thrilling beauty that also
+=====
+Original:		 also has its own parliament . “ Argentina
+0.8 threshold:	 also has its own legislature . “ Argentina
+0.5 threshold:	 also has its own legislature . “ Argentina
+=====
+Original:		 “ Patagonia is a relevant region for the
+0.5 threshold:	 “ Patagonia is a relevent region for the
+=====
+Original:		 fishing , mining and agriculture resources . It
+0.8 threshold:	 fishing , mining and fishery resources . It
+0.5 threshold:	 fishing , mining and fishery resources . It
+=====
+Original:		 a region with a vibrant local community and
+0.5 threshold:	 a region with a lively local community and
+=====
+Original:		 it is a major tourist destination . ”
+0.5 threshold:	 it is a major tourism locale . ”
+=====
+Original:		 is a major tourist destination . ”
+0.8 threshold:	 is a major tourist locale . ”
+0.5 threshold:	 is a major tourism locale . ”
+=====
+Original:		 Less convincingly , China has
+0.8 threshold:	 Less cogently , China has
+0.5 threshold:	 Less cogently , China has
+=====
+Original:		 ” , which is proposed by a hotel
+0.8 threshold:	 ” , which is enacted by a hotel
+0.5 threshold:	 ” , which is enacted by a hotel
+=====
+Original:		 a region in Yunnan province , although it
+0.8 threshold:	 a region in Yunnan region , although it
+0.5 threshold:	 a region in Yunnan region , although it
+=====
+Original:		 as such in 2001 ( long after the
+0.5 threshold:	 as such in 2001 [ long after the
+=====
+Original:		 cash in on the fame of the fictional
+0.8 threshold:	 cash in on the infamy of the fictional
+0.5 threshold:	 cash in on the infamy of the fictive
+=====
+Original:		 the fame of the fictional paradise depicted in
+0.5 threshold:	 the infamy of the fictive wonderland evoked in
+=====
+Original:		 fame of the fictional paradise depicted in the
+0.8 threshold:	 infamy of the fictional wonderland evoked in the
+0.5 threshold:	 infamy of the fictive wonderland evoked in the
+=====
+Original:		 of the fictional paradise depicted in the novel
+0.8 threshold:	 of the fictional wonderland evoked in the book
+0.5 threshold:	 of the fictive wonderland evoked in the book
+=====
+Original:		 paradise depicted in the novel , Lost Horizon
+0.8 threshold:	 wonderland evoked in the book , Lost Horizon
+0.5 threshold:	 wonderland evoked in the book , Lost Horizon
+=====
+Original:		 At a conference in April in
+0.5 threshold:	 At a forum in April in
+=====
+Original:		 Advisory Committee – the primary voice of national
+0.5 threshold:	 Advisory Committee – the secondary voice of national
+=====
+Original:		 national governments within the institution – recommended a
+0.8 threshold:	 national governments within the edifice – approved a
+0.5 threshold:	 national governments within the edifice – approved a
+=====
+Original:		 within the institution – recommended a freeze on
+0.8 threshold:	 within the edifice – approved a moratorium on
+0.5 threshold:	 within the edifice – approved a moratorium on
+=====
+Original:		 institution – recommended a freeze on disputed proposals
+0.8 threshold:	 edifice – approved a moratorium on disputed proposals
+0.5 threshold:	 edifice – approved a moratorium on disputed proposals
+=====
+Original:		 proposals . They are expected to be discussed
+0.5 threshold:	 proposals . They are believed to be agreed
+=====
+Original:		 are expected to be discussed again at a
+0.8 threshold:	 are expected to be agreed again at a
+0.5 threshold:	 are believed to be agreed again at a
+=====
+
+##################################################
+Comparing: Amsterdam-adv-10 and Amsterdam-adv-8
+
+Original:		 ﻿Amsterdam still looks liberal to tourists ,
+0.8 threshold:	 ﻿Amsterdam still looks leftish to tourists ,
+0.5 threshold:	 ﻿Amsterdam still looks progressive to tourists ,
+=====
+Original:		 , who were recently assured by the Labour
+0.8 threshold:	 , who were recently reassured by the Labour
+=====
+Original:		 national law tackling drug tourism . But the
+0.8 threshold:	 national law tackling drug touristry . But the
+=====
+Original:		 lose its reputation for tolerance over plans to
+0.8 threshold:	 lose its reputation for toleration over plans to
+0.5 threshold:	 lose its reputation for toleration over plans to
+=====
+Original:		 tolerance over plans to dispatch nuisance neighbours to
+0.8 threshold:	 toleration over plans to send nuissance neighbors to
+0.5 threshold:	 toleration over plans to send nuisance neighbours to
+=====
+Original:		 over plans to dispatch nuisance neighbours to “
+0.8 threshold:	 over plans to send nuissance neighbors to “
+=====
+Original:		 plans to dispatch nuisance neighbours to “ scum
+0.8 threshold:	 plans to send nuissance neighbors to “ scum
+=====
+Original:		 ” made from shipping containers .
+0.8 threshold:	 ” made from shipping crates .
+=====
+Original:		 van der Laan , insists his controversial new
+0.8 threshold:	 van der Laan , says his contentious new
+0.5 threshold:	 van der Laan , says his divisive new
+=====
+Original:		 Laan , insists his controversial new £810,000 policy
+0.8 threshold:	 Laan , says his contentious new £810,000 policy
+0.5 threshold:	 Laan , says his divisive new £810,000 policy
+=====
+Original:		 new £810,000 policy to tackle antisocial behaviour is
+0.8 threshold:	 new £810,000 policy to confront unsocial activity is
+=====
+Original:		 £810,000 policy to tackle antisocial behaviour is to
+0.8 threshold:	 £810,000 policy to confront unsocial activity is to
+0.5 threshold:	 £810,000 policy to tackle unsocial behavior is to
+=====
+Original:		 policy to tackle antisocial behaviour is to protect
+0.8 threshold:	 policy to confront unsocial activity is to protect
+0.5 threshold:	 policy to tackle unsocial behavior is to protect
+=====
+Original:		 behaviour is to protect victims of abuse and
+0.8 threshold:	 activity is to protect individuals of misuse and
+=====
+Original:		 to protect victims of abuse and homophobia from
+0.8 threshold:	 to protect individuals of misuse and bigotry from
+0.5 threshold:	 to protect victims of maltreatment and bigotry from
+=====
+Original:		 victims of abuse and homophobia from harassment .
+0.8 threshold:	 individuals of misuse and bigotry from harrasment .
+0.5 threshold:	 victims of maltreatment and bigotry from harrassment .
+=====
+Original:		 abuse and homophobia from harassment . The camps
+0.8 threshold:	 misuse and bigotry from harrasment . The camps
+0.5 threshold:	 maltreatment and bigotry from harrassment . The camps
+=====
+Original:		 . The camps where antisocial tenants will be
+0.8 threshold:	 . The camps where impulsive tenants will be
+0.5 threshold:	 . The camps where impulsive tenants will be
+=====
+Original:		 antisocial tenants will be rehoused for three to
+0.5 threshold:	 impulsive tenants will be evicted for three to
+=====
+Original:		 have been called “ scum villages ” because
+0.5 threshold:	 have been called “ slut villages ” because
+=====
+Original:		 because the policy echoes proposals from Geert Wilders
+0.8 threshold:	 because the policy echoes plans from Geert Wilders
+=====
+Original:		 Wilders , the far-right populist , who last
+0.5 threshold:	 Wilders , the far-right firebrand , who last
+=====
+Original:		 Bartho Boer , a spokesman for the Mayor
+0.8 threshold:	 Bartho Boer , a spokeman for the Mayor
+0.5 threshold:	 Bartho Boer , a Spokesman for the Mayor
+=====
+Original:		 for the Mayor , denies that the plans
+0.8 threshold:	 for the Mayor , disavows that the plans
+=====
+Original:		 that the plans are illiberal . “ We
+0.5 threshold:	 that the plans are godless . “ We
+=====
+Original:		 want to defend the liberal values of Amsterdam
+0.5 threshold:	 want to defend the progressive values of Amsterdam
+=====
+Original:		 they are gay and lesbian or stand up
+0.5 threshold:	 they are gay and gay or stand up
+=====
+Original:		 or stand up to violence and are then
+0.8 threshold:	 or stand up to violance and are then
+0.5 threshold:	 or stand up to unrest and are then
+=====
+Original:		 are then victims of harassment . We as
+0.8 threshold:	 are then victims of harrasment . We as
+0.5 threshold:	 are then victims of harrassment . We as
+=====
+Original:		 for “ the regular nuisance between two neighbours
+0.8 threshold:	 for “ the regular nuissance between two neighbors
+=====
+Original:		 regular nuisance between two neighbours where one has
+0.8 threshold:	 regular nuissance between two neighbors where one has
+=====
+Original:		 “ people who are extremely violent and intimidating
+0.5 threshold:	 “ people who are very deadly and daunting
+=====
+Original:		 people who are extremely violent and intimidating ,
+0.8 threshold:	 people who are extremely lurid and daunting ,
+0.5 threshold:	 people who are very deadly and daunting ,
+=====
+Original:		 are extremely violent and intimidating , and in
+0.8 threshold:	 are extremely lurid and daunting , and in
+0.5 threshold:	 are very deadly and daunting , and in
+=====
+Original:		 clear situation where a victim is being repeatedly
+0.8 threshold:	 clear situation where a perpetrator is being angrily
+0.5 threshold:	 clear situation where a perpetrator is being angrily
+=====
+Original:		 a victim is being repeatedly harassed ” .
+0.8 threshold:	 a perpetrator is being angrily attacked ” .
+0.5 threshold:	 a perpetrator is being angrily humiliated ” .
+=====
+Original:		 victim is being repeatedly harassed ” .
+0.8 threshold:	 perpetrator is being angrily attacked ” .
+0.5 threshold:	 perpetrator is being angrily humiliated ” .
+=====
+Original:		 Those deemed guilty of causing
+0.8 threshold:	 Those considered guilty of causing
+0.5 threshold:	 Those considered guilty of causing
+=====
+Original:		 havoc ” will be evicted and placed in
+0.5 threshold:	 havoc ” will be deported and placed in
+=====
+Original:		 evicted and placed in temporary homes of a
+0.5 threshold:	 deported and placed in permanent homes of a
+=====
+Original:		 homes of a “ basic ” nature ,
+0.5 threshold:	 homes of a “ rudimentary ” nature ,
+=====
+Original:		 , including converted shipping containers in industrial areas
+0.8 threshold:	 , including converted shipping crates in industrial areas
+=====
+Original:		 call it a living container , ” says
+0.5 threshold:	 call it a living crate , ” says
+=====
+Original:		 says Boer . Housing antisocial tenants in these
+0.5 threshold:	 says Boer . Housing anti-social tenants in these
+=====
+Original:		 been used as student accommodation , will ensure
+0.8 threshold:	 been used as student accomodation , will insure
+0.5 threshold:	 been used as student lodging , will assure
+=====
+Original:		 student accommodation , will ensure that they are
+0.8 threshold:	 student accomodation , will insure that they are
+0.5 threshold:	 student lodging , will assure that they are
+=====
+Original:		 rewarded ” by being relocated to better accommodation
+0.8 threshold:	 rewarded ” by being moved to better accomodation
+0.5 threshold:	 rewarded ” by being resettled to better accomodation
+=====
+Original:		 being relocated to better accommodation .
+0.8 threshold:	 being moved to better accomodation .
+0.5 threshold:	 being resettled to better accomodation .
+=====
+Original:		 in the 19th century troublemakers were moved to
+0.8 threshold:	 in the 19th century sulkers were moved to
+=====
+Original:		 and Overijssel , which rapidly became slums .
+0.5 threshold:	 and Overijssel , which quickly became slums .
+=====
+Original:		 slums . But Boer insists that the administration
+0.8 threshold:	 slums . But Boer says that the Administration
+0.5 threshold:	 slums . But Boer says that the adminstration
+=====
+Original:		 Boer insists that the administration has learned from
+0.8 threshold:	 Boer says that the Administration has learned from
+0.5 threshold:	 Boer says that the adminstration has learned from
+=====
+Original:		 planning to house the antisocial together .
+0.5 threshold:	 planning to house the anti-social together .
+=====
+Original:		 It would be more accurate to call them
+0.8 threshold:	 It would be more useful to call them
+0.5 threshold:	 It would be more useful to call them
+=====
+Original:		 in these houses , scattered around the city
+0.8 threshold:	 in these houses , dispersed around the city
+0.5 threshold:	 in these houses , dispersed around the city
+=====
+Original:		 tenants will be found permanent homes . The
+0.8 threshold:	 tenants will be found temporary homes . The
+=====
+Original:		 . The city government anticipates moving around ten
+0.8 threshold:	 . The city government expects moving around ten
+0.5 threshold:	 . The city government expects moving around ten
+=====
+Original:		 a year into this programme , which starts
+0.8 threshold:	 a year into this program , which starts
+0.5 threshold:	 a year into this program , which starts
+=====
+Original:		 The temporary dwellings will be
+0.5 threshold:	 The permanent dwellings will be
+=====
+Original:		 The temporary dwellings will be heavily
+0.8 threshold:	 The temporary homes will be heavily
+=====
+Original:		 heavily policed , but antisocial tenants will also
+0.5 threshold:	 heavily policed , but anti-social tenants will also
+=====
+
+##################################################
+Comparing: Anita-adv-10 and Anita-adv-8
+
+Original:		 ﻿Brazil ’ s latest funk sensation , Anitta
+0.5 threshold:	 ﻿Brazil ’ s latest punk phenomenon , Anitta
+=====
+Original:		 ’ s latest funk sensation , Anitta ,
+0.8 threshold:	 ’ s latest funk phenomenon , Anitta ,
+0.5 threshold:	 ’ s latest punk phenomenon , Anitta ,
+=====
+Original:		 fans by taking the favela sound into the
+0.5 threshold:	 fans by taking the slum sound into the
+=====
+Original:		 the centre of a debate about skin colour
+0.8 threshold:	 the centre of a controversy about skin colour
+0.5 threshold:	 the centre of a controversy about skin color
+=====
+Original:		 a debate about skin colour .
+0.5 threshold:	 a controversy about skin color .
+=====
+Original:		 had to sacrifice her blackness to make it
+0.8 threshold:	 had to sacrifice her dimness to make it
+0.5 threshold:	 had to sacrifice her dimness to make it
+=====
+Original:		 make it into the predominantly white middle- class
+0.8 threshold:	 make it into the mostly white middle- class
+0.5 threshold:	 make it into the mostly white middle- class
+=====
+Original:		 The controversy was prompted by
+0.8 threshold:	 The scandal was provoked by
+0.5 threshold:	 The scandal was provoked by
+=====
+Original:		 The controversy was prompted by the publication
+0.8 threshold:	 The scandal was provoked by the publication
+0.5 threshold:	 The scandal was provoked by the publication
+=====
+Original:		 photographs that show a dramatic lightening of Anitta
+0.8 threshold:	 photographs that show a startling lightening of Anitta
+0.5 threshold:	 photographs that show a startling lightening of Anitta
+=====
+Original:		 , when she was relatively unknown , she
+0.8 threshold:	 , when she was fairly unknown , she
+0.5 threshold:	 , when she was fairly unknown , she
+=====
+Original:		 the second – a marketing shot after she
+0.8 threshold:	 the second – a merchandising shot after she
+0.5 threshold:	 the second – a merchandising shot after she
+=====
+Original:		 of whitening products and cosmetic surgery or –
+0.5 threshold:	 of whitening products and surgical surgery or –
+=====
+Original:		 , the contrast has rekindled discussion about whether
+0.5 threshold:	 , the contrast has stirred dialogue about whether
+=====
+Original:		 the contrast has rekindled discussion about whether you
+0.8 threshold:	 the contrast has rekindled dialogue about whether you
+0.5 threshold:	 the contrast has stirred dialogue about whether you
+=====
+Original:		 Jarid Arraes , a psychology student and blogger
+0.8 threshold:	 Jarid Arraes , a philosophy student and blogger
+0.5 threshold:	 Jarid Arraes , a philosophy student and writer
+=====
+Original:		 a psychology student and blogger , wrote a
+0.5 threshold:	 a philosophy student and writer , wrote a
+=====
+Original:		 , wrote a post criticizing the latent discrimination
+0.8 threshold:	 , wrote a post chiding the latent racism
+0.5 threshold:	 , wrote a post chiding the latent racism
+=====
+Original:		 post criticizing the latent discrimination in media and
+0.8 threshold:	 post chiding the latent racism in media and
+0.5 threshold:	 post chiding the latent racism in media and
+=====
+Original:		 discrimination in media and marketing that she felt
+0.5 threshold:	 racism in media and advertising that she felt
+=====
+Original:		 “ People refuse to accept that they are
+0.5 threshold:	 “ People refuse to consider that they are
+=====
+Original:		 accept that they are racist and they think
+0.5 threshold:	 consider that they are Racist and they think
+=====
+Original:		 they live in a multiracial democracy , but
+0.8 threshold:	 they live in a racial democracy , but
+0.5 threshold:	 they live in a racial democracy , but
+=====
+Original:		 whitening shows us a profoundly intolerant society that
+0.8 threshold:	 whitening shows us a deeply elitist society that
+0.5 threshold:	 whitening shows us a deeply elitist society that
+=====
+Original:		 shows us a profoundly intolerant society that doesn
+0.8 threshold:	 shows us a deeply elitist society that doesn
+0.5 threshold:	 shows us a deeply elitist society that doesn
+=====
+Original:		 doesn ’ t support diversity . White is
+0.8 threshold:	 doesn ’ t support inclusivity . White is
+0.5 threshold:	 doesn ’ t support inclusivity . White is
+=====
+Original:		 the nice , the successful , the good
+0.8 threshold:	 the nice , the fruitful , the good
+0.5 threshold:	 the nice , the fruitful , the good
+=====
+Original:		 diva-to-be was a church chorister in her childhood
+0.8 threshold:	 diva-to-be was a church vicar in her boyhood
+0.5 threshold:	 diva-to-be was a church vicar in her boyhood
+=====
+Original:		 church chorister in her childhood . In her
+0.8 threshold:	 church vicar in her boyhood . In her
+0.5 threshold:	 church vicar in her boyhood . In her
+=====
+Original:		 funk scene as a dancer and singer .
+0.5 threshold:	 funk scene as a ballerina and singer .
+=====
+Original:		 She has now exploded into the public
+0.8 threshold:	 She has now imploded into the public
+0.5 threshold:	 She has now imploded into the public
+=====
+Original:		 exploded into the public consciousness with an album
+0.8 threshold:	 imploded into the public conciousness with an album
+0.5 threshold:	 imploded into the public conciousness with an album
+=====
+Original:		 an album and a huge hit single ,
+0.5 threshold:	 an album and a small hit single ,
+=====
+Original:		 topped the charts and attracted 52 million YouTube
+0.5 threshold:	 topped the charts and enticed 52 million YouTube
+=====
+Original:		 Though adored first and foremost
+0.5 threshold:	 Though loved first and foremost
+=====
+Original:		 and foremost as a pop idol with a
+0.5 threshold:	 and foremost as a rock idol with a
+=====
+Original:		 strong message and some catchy tunes , her
+0.5 threshold:	 strong message and some jazzy tunes , her
+=====
+Original:		 project her as a cultural bridge between the
+0.8 threshold:	 project her as a social bridge between the
+0.5 threshold:	 project her as a social bridge between the
+=====
+Original:		 cultural bridge between the predominantly black and mixed-race
+0.8 threshold:	 social bridge between the mostly black and mixed-race
+0.5 threshold:	 social bridge between the mostly black and mixed-race
+=====
+Original:		 on Rio ’ s hillsides and the wealthier
+0.5 threshold:	 on Rio ’ s mountainside and the wealthier
+=====
+Original:		 and the wealthier and whiter communities below .
+0.5 threshold:	 and the wealthier and black communities below .
+=====
+Original:		 has toned down the suggestive dancing , gangsta
+0.8 threshold:	 has toned down the racy dancing , gangsta
+0.5 threshold:	 has toned down the racy dance , gangster
+=====
+Original:		 toned down the suggestive dancing , gangsta references
+0.5 threshold:	 toned down the racy dance , gangster references
+=====
+Original:		 the suggestive dancing , gangsta references and explicit
+0.5 threshold:	 the racy dance , gangster references and vague
+=====
+Original:		 , gangsta references and explicit lyrics of baile
+0.8 threshold:	 , gangsta references and vague lyrics of baile
+0.5 threshold:	 , gangster references and vague lyrics of baile
+=====
+Original:		 explicit lyrics of baile funk . Now ,
+0.5 threshold:	 vague lyrics of baile rut . Now ,
+=====
+Original:		 she – or her marketing team – have
+0.5 threshold:	 she – or her advertising team – have
+=====
+Original:		 re-tailoring her image to attract a more lucrative
+0.5 threshold:	 re-tailoring her image to lure a more profitable
+=====
+Original:		 to attract a more lucrative demographic . “
+0.5 threshold:	 to lure a more profitable demographic . “
+=====
+Original:		 demographic . “ If pop stars have curly
+0.5 threshold:	 demographic . “ If rock stars have curly
+=====
+Original:		 are going to feel coerced into straightening it
+0.5 threshold:	 are going to feel cajoled into yanking it
+=====
+Original:		 to feel coerced into straightening it . If
+0.8 threshold:	 to feel coerced into yanking it . If
+0.5 threshold:	 to feel cajoled into yanking it . If
+=====
+Original:		 , they will be coerced into getting rhinoplasty
+0.5 threshold:	 , they will be cajoled into getting Rhinoplasty
+=====
+Original:		 be coerced into getting rhinoplasty , ” said
+0.5 threshold:	 be cajoled into getting Rhinoplasty , ” said
+=====
+Original:		 Arraes . “ It creates a vicious cycle
+0.5 threshold:	 Arraes . “ It generates a vile cycle
+=====
+Original:		 “ It creates a vicious cycle for self-esteem
+0.8 threshold:	 “ It creates a vile cycle for self-esteem
+0.5 threshold:	 “ It generates a vile cycle for self-esteem
+=====
+Original:		 This is a sensitive topic in this
+0.8 threshold:	 This is a touchy topic in this
+0.5 threshold:	 This is a touchy subject in this
+=====
+Original:		 This is a sensitive topic in this largely
+0.5 threshold:	 This is a touchy subject in this mostly
+=====
+Original:		 sensitive topic in this largely mixed-raced nation .
+0.5 threshold:	 touchy subject in this mostly mixed-raced nation .
+=====
+Original:		 in the world to ban slavery – has
+0.5 threshold:	 in the world to restrict colonialism – has
+=====
+Original:		 the world to ban slavery – has the
+0.5 threshold:	 the world to restrict colonialism – has the
+=====
+Original:		 – has the largest population of African descent
+0.5 threshold:	 – has the largest popula of African descent
+=====
+Original:		 , but race and ancestry are less important
+0.8 threshold:	 , but race and origin are less important
+0.5 threshold:	 , but race and origin are less important
+=====
+Original:		 less important here than colour . And ,
+0.5 threshold:	 less important here than color . And ,
+=====
+Original:		 goal of being a multiracial democracy , there
+0.8 threshold:	 goal of being a racial democracy , there
+0.5 threshold:	 goal of being a racial democracy , there
+=====
+Original:		 there is a clear link between skin tone
+0.5 threshold:	 there is a clear connection between skin tone
+=====
+Original:		 between skin tone and inequality .
+0.8 threshold:	 between skin tone and inequity .
+0.5 threshold:	 between skin tone and inequity .
+=====
+Original:		 , white workers earn roughly twice as much
+0.8 threshold:	 , white workers earn nearly twice as much
+0.5 threshold:	 , white workers earn nearly twice as much
+=====
+Original:		 much as those of African descent . Up
+0.5 threshold:	 much as those of asian descent . Up
+=====
+Original:		 But the gulf remains glaringly apparent . The
+0.5 threshold:	 But the gulf remains patently evident . The
+=====
+Original:		 the gulf remains glaringly apparent . The vast
+0.8 threshold:	 the gulf remains glaringly evident . The large
+0.5 threshold:	 the gulf remains patently evident . The large
+=====
+Original:		 glaringly apparent . The vast majority of business
+0.8 threshold:	 glaringly evident . The large plurality of business
+0.5 threshold:	 patently evident . The large plurality of business
+=====
+Original:		 apparent . The vast majority of business and
+0.8 threshold:	 evident . The large plurality of business and
+0.5 threshold:	 evident . The large plurality of business and
+=====
+Original:		 , Gávea or other upmarket districts and you
+0.5 threshold:	 , Gávea or other trendy districts and you
+=====
+Original:		 to see black nannies pushing strollers with white
+0.5 threshold:	 to see black nannies bringing strollers with white
+=====
+Original:		 than a white nanny pushing a black child
+0.5 threshold:	 than a white nanny pulling a black child
+=====
+Original:		 Defining colour is complex .
+0.5 threshold:	 Defining color is complex .
+=====
+Original:		 in the most recent census in 2010 .
+0.8 threshold:	 in the most recent Census in 2010 .
+0.5 threshold:	 in the most recent Census in 2010 .
+=====
+Original:		 Among the 197 million population , 82 million
+0.5 threshold:	 Among the 197 million popula , 82 million
+=====
+Original:		 were “ pardu ” ( mixed race )
+0.5 threshold:	 were “ pardu ” [ mixed race )
+=====
+Original:		 million Asian and 0.5 % indigenous .
+0.5 threshold:	 million Asian and 0.5 percent Aboriginal .
+=====
+Original:		 Asian and 0.5 % indigenous .
+0.8 threshold:	 Asian and 0.5 % Aboriginal .
+0.5 threshold:	 Asian and 0.5 percent Aboriginal .
+=====
+Original:		 Sylvio Ferreira , a psychology lecturer at the
+0.8 threshold:	 Sylvio Ferreira , a science professor at the
+0.5 threshold:	 Sylvio Ferreira , a science professor at the
+=====
+Original:		 Ferreira , a psychology lecturer at the Federal
+0.8 threshold:	 Ferreira , a science professor at the Federal
+0.5 threshold:	 Ferreira , a science professor at the Federal
+=====
+Original:		 class by taking a rebellious sound and making
+0.8 threshold:	 class by taking a bratty sound and making
+0.5 threshold:	 class by taking a bratty sound and making
+=====
+Original:		 it tamer and more palatable to everyone .
+0.8 threshold:	 it tamer and more amenable to everyone .
+0.5 threshold:	 it tamer and more amenable to everyone .
+=====
+Original:		 “ Was this achieved by racial whitening
+0.8 threshold:	 “ Was this attained by racial whitening
+0.5 threshold:	 “ Was this attained by racial whitening
+=====
+Original:		 Others agree that the issue of colour is
+0.8 threshold:	 Others agree that the problem of colour is
+0.5 threshold:	 Others agree that the problem of color is
+=====
+Original:		 that the issue of colour is overblown .
+0.5 threshold:	 that the problem of color is overstated .
+=====
+Original:		 issue of colour is overblown . Maycon de
+0.8 threshold:	 problem of colour is overstated . Maycon de
+0.5 threshold:	 problem of color is overstated . Maycon de
+=====
+Original:		 Batista , a financial analyst who worked with
+0.8 threshold:	 Batista , a financial economist who worked with
+0.5 threshold:	 Batista , a financial economist who worked with
+=====
+Original:		 there had been a huge change in Anitta
+0.5 threshold:	 there had been a small change in Anitta
+=====
+Original:		 but not of her colour .
+0.5 threshold:	 but not of her color .
+=====
+Original:		 the way they are producing her with makeup
+0.8 threshold:	 the way they are providing her with makeup
+0.5 threshold:	 the way they are providing her with makeup
+=====
+Original:		 to show off , sing and dance .
+0.5 threshold:	 to show off , sang and dance .
+=====
+Original:		 is because of this naturalness that she is
+0.8 threshold:	 is because of this lightness that she is
+0.5 threshold:	 is because of this lightness that she is
+=====
+Original:		 Souza , a racial equality activist in the
+0.5 threshold:	 Souza , a racial empowerment advocate in the
+=====
+Original:		 , a racial equality activist in the north-eastern
+0.8 threshold:	 , a racial equality advocate in the north-eastern
+0.5 threshold:	 , a racial empowerment advocate in the north-eastern
+=====
+Original:		 Salvador , said the prejudice lay not with
+0.8 threshold:	 Salvador , said the bigotry lay not with
+0.5 threshold:	 Salvador , said the bigotry lay not with
+=====
+Original:		 its own sake by choosing Ellen Oléria –
+0.5 threshold:	 its own sake by selecting Ellen Oléria –
+=====
+Original:		 Oléria – a black lesbian – as the
+0.5 threshold:	 Oléria – a black bisexual – as the
+=====
+Original:		 recent interview , she described the need for
+0.8 threshold:	 recent interview , she characterized the need for
+0.5 threshold:	 recent interview , she characterized the need for
+=====
+Original:		 she has so much attitude that she is
+0.5 threshold:	 she has so much mindset that she is
+=====
+Original:		 attitude that she is marvellous , she is
+0.8 threshold:	 attitude that she is awesome , she is
+0.5 threshold:	 mindset that she is awesome , she is
+=====
+
+##################################################
+Comparing: Arctic-mapping-adv-10 and Arctic-mapping-adv-8
+
+Original:		 floor , the Amazon rainforest and even provided
+0.8 threshold:	 floor , the Amazon forest and even provided
+0.5 threshold:	 floor , the Amazon forest and even delivered
+=====
+Original:		 Amazon rainforest and even provided a glimpse into
+0.5 threshold:	 Amazon forest and even delivered a peek into
+=====
+Original:		 and even provided a glimpse into North Korea
+0.8 threshold:	 and even provided a peek into North Korea
+0.5 threshold:	 and even delivered a peek into North Korea
+=====
+Original:		 map the world has largely steered clear of
+0.5 threshold:	 map the world has mostly steered clear of
+=====
+Original:		 steered clear of the inhospitable Arctic .
+0.8 threshold:	 steered clear of the arid Arctic .
+0.5 threshold:	 steered clear of the arid Arctic .
+=====
+Original:		 however , the search-engine firm is embarking on
+0.5 threshold:	 however , the search-engine company is embarking on
+=====
+Original:		 might be the most significant update to centuries
+0.8 threshold:	 might be the most important update to centuries
+0.5 threshold:	 might be the most important update to centuries
+=====
+Original:		 to centuries of polar cartography – and one
+0.5 threshold:	 to centuries of polar geodesy – and one
+=====
+Original:		 town in the Canadian territory of Nunavut ,
+0.8 threshold:	 town in the Canadian enclave of Nunavut ,
+0.5 threshold:	 town in the Canadian enclave of Nunavut ,
+=====
+Original:		 winter gear , a stack of laptop computers
+0.5 threshold:	 winter gear , a pile of laptop computers
+=====
+Original:		 by an Inuit mapping expert , and stalked
+0.5 threshold:	 by an Inuit mapping specialist , and stalked
+=====
+Original:		 , and stalked by curious locals , the
+0.8 threshold:	 , and stalked by interesting locals , the
+0.5 threshold:	 , and stalked by interesting locals , the
+=====
+Original:		 team spent four days trudging through the terrain
+0.8 threshold:	 team spent four days plodding through the topography
+0.5 threshold:	 team spent four days plodding through the topography
+=====
+Original:		 days trudging through the terrain and collecting the
+0.8 threshold:	 days plodding through the topography and obtaining the
+0.5 threshold:	 days plodding through the topography and obtaining the
+=====
+Original:		 through the terrain and collecting the images and
+0.8 threshold:	 through the topography and obtaining the images and
+0.5 threshold:	 through the topography and obtaining the images and
+=====
+Original:		 collecting the images and information that will give
+0.5 threshold:	 obtaining the images and data that will give
+=====
+Original:		 that will give the isolated community on the
+0.5 threshold:	 that will give the insular community on the
+=====
+Original:		 isolated community on the tundra of Baffin Island
+0.5 threshold:	 insular community on the steppe of Baffin Island
+=====
+Original:		 Unlike more populous and accessible parts of the
+0.8 threshold:	 Unlike more populous and available parts of the
+0.5 threshold:	 Unlike more populous and available parts of the
+=====
+Original:		 mapped using a special camera mounted on a
+0.5 threshold:	 mapped using a special tripod mounted on a
+=====
+Original:		 s snow-packed roads and traversing little-known trails ,
+0.8 threshold:	 s snow-packed roads and navigating little-known trails ,
+0.5 threshold:	 s snow-packed roads and navigating little-known trails ,
+=====
+Original:		 the risk from polar bears and other wildlife
+0.5 threshold:	 the risk from polar mooses and other wildlife
+=====
+Original:		 John Graham said the digital cartographers were ,
+0.5 threshold:	 John Graham said the digitial cartographers were ,
+=====
+Original:		 by a herd of excited and curious locals
+0.5 threshold:	 by a herd of happy and interesting locals
+=====
+Original:		 herd of excited and curious locals , or
+0.5 threshold:	 herd of happy and interesting locals , or
+=====
+Original:		 Graham understands the enthusiasm .
+0.8 threshold:	 Graham knows the fervor .
+0.5 threshold:	 Graham knows the fervor .
+=====
+Original:		 Graham understands the enthusiasm . The Street
+0.8 threshold:	 Graham knows the fervor . The Street
+0.5 threshold:	 Graham knows the fervor . The Street
+=====
+Original:		 footsteps of the English explorer Martin Frobisher ,
+0.8 threshold:	 footsteps of the English navigator Martin Frobisher ,
+0.5 threshold:	 footsteps of the English navigator Martin Frobisher ,
+=====
+Original:		 to the site being chosen for a military
+0.8 threshold:	 to the site being selected for a military
+0.5 threshold:	 to the site being selected for a military
+=====
+Original:		 chosen for a military airbase . His exploration
+0.8 threshold:	 selected for a military airfield . His exploration
+0.5 threshold:	 selected for a military airfield . His exploration
+=====
+Original:		 as well as a transport and communications hub
+0.8 threshold:	 as well as a transit and technology hub
+0.5 threshold:	 as well as a transit and technology gateway
+=====
+Original:		 as a transport and communications hub for Nunavut
+0.8 threshold:	 as a transit and technology hub for Nunavut
+0.5 threshold:	 as a transit and technology gateway for Nunavut
+=====
+Original:		 a transport and communications hub for Nunavut .
+0.5 threshold:	 a transit and technology gateway for Nunavut .
+=====
+Original:		 One of the initial challenges Google faced
+0.5 threshold:	 One of the actual challenges Google faced
+=====
+Original:		 challenges Google faced was gathering the raw data
+0.8 threshold:	 challenges Google faced was gleaning the raw data
+0.5 threshold:	 challenges Google faced was gleaning the raw data
+=====
+Original:		 satellite images was fairly accurate , although the
+0.8 threshold:	 satellite images was fairly correct , although the
+0.5 threshold:	 satellite images was fairly correct , although the
+=====
+Original:		 accurate , although the rapid pace of the
+0.5 threshold:	 correct , although the slow momentum of the
+=====
+Original:		 , although the rapid pace of the town
+0.5 threshold:	 , although the slow momentum of the town
+=====
+Original:		 Another difficulty was how to
+0.8 threshold:	 Another trouble was how to
+0.5 threshold:	 Another trouble was how to
+=====
+Original:		 difficulty was how to situate many businesses and
+0.5 threshold:	 trouble was how to confine many businesses and
+=====
+Original:		 post office rather than delivered to their address
+0.8 threshold:	 post office rather than sent to their address
+0.5 threshold:	 post office rather than sent to their address
+=====
+Original:		 provided with a laptop computer and instructed how
+0.5 threshold:	 provided with a laptop laptop and advised how
+=====
+Original:		 a laptop computer and instructed how to ensure
+0.8 threshold:	 a laptop computer and advised how to assure
+0.5 threshold:	 a laptop laptop and advised how to assure
+=====
+Original:		 and instructed how to ensure their homes ,
+0.8 threshold:	 and advised how to assure their homes ,
+0.5 threshold:	 and advised how to assure their homes ,
+=====
+Original:		 places would show up accurately on the map
+0.8 threshold:	 places would show up properly on the map
+0.5 threshold:	 places would show up properly on the map
+=====
+Original:		 The project is more than
+0.5 threshold:	 The program is more than
+=====
+Original:		 than a novelty or cultural philanthropy . Sayani
+0.8 threshold:	 than a novelty or social volunteerism . Sayani
+0.5 threshold:	 than a novelty or social volunteerism . Sayani
+=====
+Original:		 a novelty or cultural philanthropy . Sayani ,
+0.8 threshold:	 a novelty or social volunteerism . Sayani ,
+0.5 threshold:	 a novelty or social volunteerism . Sayani ,
+=====
+Original:		 run for the Iqaluit mapping exercise occurred last
+0.5 threshold:	 run for the Iqaluit modeling excercise happened last
+=====
+Original:		 for the Iqaluit mapping exercise occurred last summer
+0.8 threshold:	 for the Iqaluit mapping excercise happened last summer
+0.5 threshold:	 for the Iqaluit modeling excercise happened last summer
+=====
+Original:		 the Iqaluit mapping exercise occurred last summer in
+0.8 threshold:	 the Iqaluit mapping excercise happened last summer in
+0.5 threshold:	 the Iqaluit modeling excercise happened last summer in
+=====
+Original:		 land usually covered in snow , which is
+0.5 threshold:	 land usually covered in fog , which is
+=====
+Original:		 one reason why Google selected the less- hospitable
+0.5 threshold:	 one reason why Google picked the less- friendly
+=====
+Original:		 Google selected the less- hospitable month of March
+0.8 threshold:	 Google selected the less- friendly month of March
+0.5 threshold:	 Google picked the less- friendly month of March
+=====
+Original:		 to move people and equipment around the vast
+0.8 threshold:	 to move people and machinery around the large
+0.5 threshold:	 to move people and machinery around the large
+=====
+Original:		 and equipment around the vast Arctic territory appears
+0.8 threshold:	 and machinery around the large Arctic territory appears
+0.5 threshold:	 and machinery around the large Arctic territory seems
+=====
+Original:		 the vast Arctic territory appears to be weighing
+0.5 threshold:	 the large Arctic territory seems to be weighing
+=====
+Original:		 has not yet been identified but , when
+0.8 threshold:	 has not yet been uncovered but , when
+0.5 threshold:	 has not yet been uncovered but , when
+=====
+Original:		 , when it is selected , Brindle said
+0.5 threshold:	 , when it is picked , Brindle said
+=====
+Original:		 rely on volunteers to literally put themselves on
+0.5 threshold:	 rely on volunteers to simply put themselves on
+=====
+
+##################################################
+Comparing: Banksy-adv-10 and Banksy-adv-8
+
+Original:		 ﻿The controversial auction of a
+0.8 threshold:	 ﻿The divisive auction of a
+0.5 threshold:	 ﻿The divisive auction of a
+=====
+Original:		 auction of a Banksy mural that disappeared from
+0.5 threshold:	 auction of a Banksy painting that faded from
+=====
+Original:		 a Banksy mural that disappeared from the wall
+0.8 threshold:	 a Banksy mural that faded from the wall
+0.5 threshold:	 a Banksy painting that faded from the wall
+=====
+Original:		 north London shop in mysterious circumstances was dramatically
+0.8 threshold:	 north London shop in shadowy circumstances was greatly
+0.5 threshold:	 north London shop in shadowy circumstances was greatly
+=====
+Original:		 in mysterious circumstances was dramatically halted just moments
+0.8 threshold:	 in shadowy circumstances was greatly halted just moments
+0.5 threshold:	 in shadowy circumstances was greatly stopped just moments
+=====
+Original:		 mysterious circumstances was dramatically halted just moments before
+0.5 threshold:	 shadowy circumstances was greatly stopped just moments before
+=====
+Original:		 Labour , a spray-painted artwork depicting a child
+0.5 threshold:	 Labour , a spray-painted mural evoking a child
+=====
+Original:		 , a spray-painted artwork depicting a child making
+0.8 threshold:	 , a spray-painted artwork evoking a child making
+0.5 threshold:	 , a spray-painted mural evoking a child making
+=====
+Original:		 and seen as a critical social commentary on
+0.8 threshold:	 and seen as a important social commentary on
+0.5 threshold:	 and seen as a important social commentary on
+=====
+Original:		 diamond jubilee , was expected to sell for
+0.5 threshold:	 diamond jubilee , was predicted to sell for
+=====
+Original:		 sale of street and contemporary art in Florida
+0.8 threshold:	 sale of street and modern art in Florida
+0.5 threshold:	 sale of street and modern art in Florida
+=====
+Original:		 But auctioneer Frederic Thut ,
+0.8 threshold:	 But jeweler Frederic Thut ,
+0.5 threshold:	 But jeweler Frederic Thut ,
+=====
+Original:		 refused all week to divulge the identity of
+0.8 threshold:	 refused all week to reveal the origin of
+0.5 threshold:	 refused all week to reveal the origin of
+=====
+Original:		 week to divulge the identity of the seller
+0.8 threshold:	 week to reveal the origin of the seller
+0.5 threshold:	 week to reveal the origin of the buyer
+=====
+Original:		 the identity of the seller or how it
+0.5 threshold:	 the origin of the buyer or how it
+=====
+Original:		 for sale through his gallery , announced that
+0.5 threshold:	 for sale through his museum , announced that
+=====
+Original:		 , announced that the piece , along with
+0.5 threshold:	 , announced that the snippet , along with
+=====
+Original:		 second work by the secretive British street artist
+0.8 threshold:	 second work by the shadowy British street artist
+0.5 threshold:	 second work by the shadowy British street artist
+=====
+Original:		 artist , had been withdrawn .
+0.8 threshold:	 artist , had been rescinded .
+0.5 threshold:	 artist , had been rescinded .
+=====
+Original:		 , who led a vocal campaign to stop
+0.8 threshold:	 , who led a vociferous campaign to stop
+0.5 threshold:	 , who led a vociferous campaign to stop
+=====
+Original:		 Wood Green , were jubilant .
+0.5 threshold:	 Wood Green , were joyous .
+=====
+Original:		 Strickland , a Haringey councillor .
+0.8 threshold:	 Strickland , a Haringey councilor .
+0.5 threshold:	 Strickland , a Haringey councilor .
+=====
+Original:		 as a matter of urgency to clarify what
+0.5 threshold:	 as a matter of seriousness to explain what
+=====
+Original:		 matter of urgency to clarify what happened and
+0.5 threshold:	 matter of seriousness to explain what happened and
+=====
+Original:		 ’ s a real victory for the people
+0.5 threshold:	 ’ s a real win for the people
+=====
+Original:		 Tomás Regalado , to ask them to intervene
+0.8 threshold:	 Tomás Regalado , to beg them to intercede
+0.5 threshold:	 Tomás Regalado , to beg them to intercede
+=====
+Original:		 to ask them to intervene to stop the
+0.8 threshold:	 to beg them to intercede to stop the
+0.5 threshold:	 to beg them to intercede to stop the
+=====
+Original:		 the sale but it appears the decision to
+0.8 threshold:	 the sale but it seems the decision to
+0.5 threshold:	 the sale but it seems the decison to
+=====
+Original:		 but it appears the decision to withdraw the
+0.5 threshold:	 but it seems the decison to cancel the
+=====
+Original:		 appears the decision to withdraw the item came
+0.8 threshold:	 seems the decision to cancel the item came
+0.5 threshold:	 seems the decison to cancel the item came
+=====
+Original:		 the gallery owners in consultation with their lawyers
+0.8 threshold:	 the gallery owners in consulation with their lawyers
+0.5 threshold:	 the gallery owners in consulation with their lawyers
+=====
+Original:		 The FBI refused to confirm reports they were
+0.8 threshold:	 The FBI refused to reveal reports they were
+0.5 threshold:	 The FBI refused to reveal reports they were
+=====
+Original:		 they were asked to investigate .
+0.8 threshold:	 they were asked to examine .
+0.5 threshold:	 they were asked to examine .
+=====
+Original:		 auction house issued a brief statement claiming it
+0.5 threshold:	 auction house issued a terse statement arguing it
+=====
+Original:		 issued a brief statement claiming it had persuaded
+0.5 threshold:	 issued a terse statement arguing it had cajoled
+=====
+Original:		 statement claiming it had persuaded the owners of
+0.8 threshold:	 statement claiming it had cajoled the owners of
+0.5 threshold:	 statement arguing it had cajoled the owners of
+=====
+Original:		 Although there are no legal issues whatsoever regarding
+0.5 threshold:	 Although there are no constitutional issues whatsoever concerning
+=====
+Original:		 no legal issues whatsoever regarding the sale of
+0.8 threshold:	 no legal issues whatsoever concerning the sale of
+0.5 threshold:	 no constitutional issues whatsoever concerning the sale of
+=====
+Original:		 by Banksy , FAAM convinced its sellers to
+0.5 threshold:	 by Banksy , FAAM enticed its sellers to
+=====
+Original:		 convinced its sellers to withdraw these lots from
+0.8 threshold:	 convinced its sellers to cancel these lots from
+0.5 threshold:	 enticed its sellers to cancel these lots from
+=====
+Original:		 About 30 potential buyers attended the
+0.8 threshold:	 About 30 possible buyers visited the
+0.5 threshold:	 About 30 possible buyers visited the
+=====
+Original:		 About 30 potential buyers attended the sale of
+0.8 threshold:	 About 30 possible buyers visited the sale of
+0.5 threshold:	 About 30 possible buyers visited the sale of
+=====
+Original:		 lots listed in the catalogue for the modern
+0.8 threshold:	 lots listed in the catalog for the modern
+0.5 threshold:	 lots listed in the catalog for the modern
+=====
+Original:		 for the modern , contemporary and street art
+0.8 threshold:	 for the modern , modern and street art
+0.5 threshold:	 for the modern , modern and street art
+=====
+Original:		 in Miami ’ s trendy Wynwood neighbourhood .
+0.5 threshold:	 in Miami ’ s upscale Wynwood neighborhood .
+=====
+Original:		 ’ s trendy Wynwood neighbourhood . The three-hour
+0.8 threshold:	 ’ s trendy Wynwood neighborhood . The three-hour
+0.5 threshold:	 ’ s upscale Wynwood neighborhood . The three-hour
+=====
+Original:		 neighbourhood . The three-hour auction continued with other
+0.5 threshold:	 neighborhood . The three-hour sale persisted with other
+=====
+Original:		 . The three-hour auction continued with other early
+0.5 threshold:	 . The three-hour sale persisted with other early
+=====
+Original:		 Critics have accused the auction house
+0.8 threshold:	 Critics have chided the auction house
+0.5 threshold:	 Critics have chided the auction house
+=====
+Original:		 stolen property but Thut insisted earlier in the
+0.8 threshold:	 stolen property but Thut said earlier in the
+0.5 threshold:	 stolen property but Thut said earlier in the
+=====
+Original:		 the week that the seller , who he
+0.5 threshold:	 the week that the buyer , who he
+=====
+Original:		 seller , who he described as a “
+0.8 threshold:	 seller , who he characterized as a “
+0.5 threshold:	 buyer , who he characterized as a “
+=====
+Original:		 that the sale was legal .
+0.5 threshold:	 that the sale was constitutional .
+=====
+Original:		 He added that his gallery had been inundated
+0.5 threshold:	 He added that his museum had been flooded
+=====
+Original:		 his gallery had been inundated with emails and
+0.8 threshold:	 his gallery had been flooded with e-mail and
+0.5 threshold:	 his museum had been flooded with e-mail and
+=====
+Original:		 had been inundated with emails and phone calls
+0.8 threshold:	 had been flooded with e-mail and phone calls
+0.5 threshold:	 had been flooded with e-mail and phone calls
+=====
+Original:		 many of them were abusive or offensive ,
+0.8 threshold:	 many of them were neglectful or offensive ,
+0.5 threshold:	 many of them were neglectful or offensive ,
+=====
+Original:		 said he supported the inclusion of the pieces
+0.8 threshold:	 said he supported the incorporation of the pieces
+0.5 threshold:	 said he supported the incorporation of the pieces
+=====
+Original:		 sale because it would preserve them .
+0.8 threshold:	 sale because it would protect them .
+0.5 threshold:	 sale because it would protect them .
+=====
+Original:		 Banksy due to be auctioned , a 2007
+0.8 threshold:	 Banksy due to be sold , a 2007
+0.5 threshold:	 Banksy due to be sold , a 2007
+=====
+Original:		 auctioned , a 2007 artwork entitled Wet Dog
+0.5 threshold:	 sold , a 2007 illustration entitled Wet Dog
+=====
+Original:		 Wet Dog that was removed from a Bethlehem
+0.8 threshold:	 Wet Dog that was deleted from a Bethlehem
+0.5 threshold:	 Wet Dog that was deleted from a Bethlehem
+=====
+Original:		 Bethlehem wall and is estimated to be worth
+0.8 threshold:	 Bethlehem wall and is predicted to be worth
+0.5 threshold:	 Bethlehem wall and is predicted to be worth
+=====
+Original:		 to $ 800,000 , disappeared from the auction
+0.8 threshold:	 to $ 800,000 , crumbled from the auction
+0.5 threshold:	 to $ 800,000 , crumbled from the auction
+=====
+Original:		 house ’ s online catalogue at lunchtime on
+0.8 threshold:	 house ’ s online catalog at 3pm on
+0.5 threshold:	 house ’ s online catalog at 3pm on
+=====
+Original:		 s online catalogue at lunchtime on Saturday ,
+0.8 threshold:	 s online catalog at 3pm on Saturday ,
+0.5 threshold:	 s online catalog at 3pm on Saturday ,
+=====
+Original:		 street art scene and deserved buyers “ whose
+0.8 threshold:	 street art scene and merited buyers “ whose
+0.5 threshold:	 street art scene and merited buyers “ whose
+=====
+Original:		 He said he would maintain the privacy of
+0.8 threshold:	 He said he would retain the privacy of
+0.5 threshold:	 He said he would retain the confidentiality of
+=====
+Original:		 he would maintain the privacy of the collector
+0.5 threshold:	 he would retain the confidentiality of the collector
+=====
+Original:		 our clients and their confidentiality . It ’
+0.8 threshold:	 our clients and their privacy . It ’
+0.5 threshold:	 our clients and their privacy . It ’
+=====
+Original:		 ’ s not our decision to have [
+0.5 threshold:	 ’ s not our decison to have [
+=====
+Original:		 A spokesperson for Poundland said
+0.8 threshold:	 A spokeswoman for Poundland said
+0.5 threshold:	 A spokeswoman for Poundland said
+=====
+Original:		 had no idea who removed the 4ft x
+0.8 threshold:	 had no idea who deleted the 4ft x
+0.5 threshold:	 had no idea who deleted the 4ft x
+=====
+Original:		 the 4ft x 5ft slab from the side
+0.5 threshold:	 the 4ft x 5ft woodaplank from the side
+=====
+Original:		 , have refused to confirm if it had
+0.8 threshold:	 , have refused to reveal if it had
+0.5 threshold:	 , have refused to reveal if it had
+=====
+Original:		 on the Slave Labour furore , but has
+0.5 threshold:	 on the Slave Labour furor , but has
+=====
+Original:		 furore , but has previously condemned those who
+0.8 threshold:	 furore , but has also condoned those who
+0.5 threshold:	 furor , but has also condoned those who
+=====
+Original:		 , but has previously condemned those who have
+0.8 threshold:	 , but has also condoned those who have
+0.5 threshold:	 , but has also condoned those who have
+=====
+Original:		 tried to sell his artwork , speaking out
+0.8 threshold:	 tried to sell his sculpture , speaking out
+0.5 threshold:	 tried to sell his sculpture , speaking out
+=====
+Original:		 . None found a buyer .
+0.8 threshold:	 . None found a purchaser .
+0.5 threshold:	 . None found a purchaser .
+=====
+Original:		 Stephan Keszler , the dealer behind that auction
+0.5 threshold:	 Stephan Keszler , the trader behind that auction
+=====
+Original:		 s works without his permission is legitimate .
+0.8 threshold:	 s works without his consent is legit .
+0.5 threshold:	 s works without his consent is legit .
+=====
+Original:		 without his permission is legitimate .
+0.8 threshold:	 without his consent is legit .
+0.5 threshold:	 without his consent is legit .
+=====
+
+##################################################

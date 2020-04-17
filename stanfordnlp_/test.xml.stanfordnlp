@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='utf-8'?>
+<article>
+<text>
+The Seattle-based company has applied for its brand to be a top-level domain name ( currently .com ) , but the South American governments argue this would prevent the use of this internet address for environmental protection , the promotion of indigenous rights and other public interest uses . 
+Until now , the differences between commercial , governmental and other types of identity were easily distinguished in every internet address by .com , .gov and 20 other categories . 
+Amazon has applied for dozens of new domains , including .shop , .song , .book and .kindle . 
+Allowing private companies to register geographical names as gTLDs to reinforce their brand strategy or to profit from the meaning of these names does not serve , in our view , the public interest , the Brazilian Ministry of Science and Technology said . 
+Brazil said its views were endorsed last month by other members of the Amazon Cooperation Treaty ( Bolivia , Colombia , Ecuador , Guyana , Suriname and Venezuela ) . 
+Argentina has lodged an expression of its unhappiness that the US outdoor clothing retailer , Patagonia , is claiming a domain name that has been known far longer as a region of spectacular beauty that also has its own parliament . 
+Argentina rejects the .patagonia request for a new generic top-level domain , the government notes in an appeal . 
+Patagonia is a relevant region for the countrys economy because it has oil , fishing , mining and agriculture resources . 
+But Bartho Boer , a spokesman for the Mayor , denies that the plans are illiberal . 
+We want everyone to be who he and she is whether they are gay and lesbian or stand up to violence and are then victims of harassment . 
+We as a society want to defend them . 
+</text>
+
+<stanfordnlp>
+<sentence num="1">
+<word-list>
+<word index="1" lemma="the" text="The" upos="DET" xpos="DT" />
+<word index="2" lemma="seattle-based" text="Seattle-based" upos="ADJ" xpos="JJ" />
+<word index="3" lemma="company" text="company" upos="NOUN" xpos="NN" />
+<word index="4" lemma="have" text="has" upos="AUX" xpos="VBZ" />
+<word index="5" lemma="apply" text="applied" upos="VERB" xpos="VBN" />
+<word index="6" lemma="for" text="for" upos="ADP" xpos="IN" />
+<word index="7" lemma="its" text="its" upos="PRON" xpos="PRP$" />
+<word index="8" lemma="brand" text="brand" upos="NOUN" xpos="NN" />
+<word index="9" lemma="to" text="to" upos="PART" xpos="TO" />
+<word index="10" lemma="be" text="be" upos="AUX" xpos="VB" />
+<word index="11" lemma="a" text="a" upos="DET" xpos="DT" />
+<word index="12" lemma="top-level" text="top-level" upos="ADJ" xpos="JJ" />
+<word index="13" lemma="domain" text="domain" upos="NOUN" xpos="NN" />
+<word index="14" lemma="name" text="name" upos="NOUN" xpos="NN" />
+<word index="15" lemma="(" text="(" upos="PUNCT" xpos="-LRB-" />
+<word index="16" lemma="currently" text="currently" upos="ADV" xpos="RB" />
+<word index="17" lemma=".com" text=".com" upos="NOUN" xpos="NN" />
+<word index="18" lemma=")" text=")" upos="PUNCT" xpos="-RRB-" />
+<word index="19" lemma="," text="," upos="PUNCT" xpos="," />
+<word index="20" lemma="but" text="but" upos="CCONJ" xpos="CC" />
+<word index="21" lemma="the" text="the" upos="DET" xpos="DT" />
+<word index="22" lemma="south" text="South" upos="ADJ" xpos="JJ" />
+<word index="23" lemma="american" text="American" upos="ADJ" xpos="JJ" />
+<word index="24" lemma="government" text="governments" upos="NOUN" xpos="NNS" />
+<word index="25" lemma="argue" text="argue" upos="VERB" xpos="VBP" />
+<word index="26" lemma="this" text="this" upos="PRON" xpos="DT" />
+<word index="27" lemma="would" text="would" upos="AUX" xpos="MD" />
+<word index="28" lemma="prevent" text="prevent" upos="VERB" xpos="VB" />
+<word index="29" lemma="the" text="the" upos="DET" xpos="DT" />
+<word index="30" lemma="use" text="use" upos="NOUN" xpos="NN" />
+<word index="31" lemma="of" text="of" upos="ADP" xpos="IN" />
+<word index="32" lemma="this" text="this" upos="DET" xpos="DT" />
+<word index="33" lemma="internet" text="internet" upos="NOUN" xpos="NN" />
+<word index="34" lemma="address" text="address" upos="NOUN" xpos="NN" />
+<word index="35" lemma="for" text="for" upos="ADP" xpos="IN" />
+<word index="36" lemma="environmental" text="environmental" upos="ADJ" xpos="JJ" />
+<word index="37" lemma="protection" text="protection" upos="NOUN" xpos="NN" />
+<word index="38" lemma="," text="," upos="PUNCT" xpos="," />
+<word index="39" lemma="the" text="the" upos="DET" xpos="DT" />
+<word index="40" lemma="promotion" text="promotion" upos="NOUN" xpos="NN" />
+<word index="41" lemma="of" text="of" upos="ADP" xpos="IN" />
+<word index="42" lemma="indigenous" text="indigenous" upos="ADJ" xpos="JJ" />
+<word index="43" lemma="rights" text="rights" upos="NOUN" xpos="NNS" />
+<word index="44" lemma="and" text="and" upos="CCONJ" xpos="CC" />
+<word index="45" lemma="other" text="other" upos="ADJ" xpos="JJ" />
+<word index="46" lemma="public" text="public" upos="ADJ" xpos="JJ" />
+<word index="47" lemma="interest" text="interest" upos="NOUN" xpos="NN" />
+<word index="48" lemma="use" text="uses" upos="VERB" xpos="VBZ" />
+<word index="49" lemma="." text="." upos="PUNCT" xpos="." />
+</word-list>
+</sentence>
+<sentence num="2">
+<word-list>
+<word index="1" lemma="until" text="Until" upos="ADP" xpos="IN" />
+<word index="2" lemma="now" text="now" upos="ADV" xpos="RB" />
+<word index="3" lemma="," text="," upos="PUNCT" xpos="," />
+<word index="4" lemma="the" text="the" upos="DET" xpos="DT" />
+<word index="5" lemma="difference" text="differences" upos="NOUN" xpos="NNS" />
+<word index="6" lemma="between" text="between" upos="ADP" xpos="IN" />
+<word index="7" lemma="commercial" text="commercial" upos="ADJ" xpos="JJ" />
+<word index="8" lemma="," text="," upos="PUNCT" xpos="," />
+<word index="9" lemma="governmental" text="governmental" upos="ADJ" xpos="JJ" />
+<word index="10" lemma="and" text="and" upos="CCONJ" xpos="CC" />
+<word index="11" lemma="other" text="other" upos="ADJ" xpos="JJ" />
+<word index="12" lemma="type" text="types" upos="NOUN" xpos="NNS" />
+<word index="13" lemma="of" text="of" upos="ADP" xpos="IN" />
+<word index="14" lemma="identity" text="identity" upos="NOUN" xpos="NN" />
+<word index="15" lemma="be" text="were" upos="AUX" xpos="VBD" />
+<word index="16" lemma="easily" text="easily" upos="ADV" xpos="RB" />
+<word index="17" lemma="distinguished" text="distinguished" upos="ADJ" xpos="JJ" />
+<word index="18" lemma="in" text="in" upos="ADP" xpos="IN" />
+<word index="19" lemma="every" text="every" upos="DET" xpos="DT" />
+<word index="20" lemma="internet" text="internet" upos="NOUN" xpos="NN" />
+<word index="21" lemma="address" text="address" upos="NOUN" xpos="NN" />
+<word index="22" lemma="by" text="by" upos="ADP" xpos="IN" />
+<word index="23" lemma=".com" text=".com" upos="NOUN" xpos="NN" />
+<word index="24" lemma="," text="," upos="PUNCT" xpos="," />
+<word index="25" lemma=".gov" text=".gov" upos="NOUN" xpos="NN" />
+<word index="26" lemma="and" text="and" upos="CCONJ" xpos="CC" />
+<word index="27" lemma="20" text="20" upos="NUM" xpos="CD" />
+<word index="28" lemma="other" text="other" upos="ADJ" xpos="JJ" />
+<word index="29" lemma="category" text="categories" upos="NOUN" xpos="NNS" />
+<word index="30" lemma="." text="." upos="PUNCT" xpos="." />
+</word-list>
+</sentence>
+<sentence num="3">
+<word-list>
+<word index="1" lemma="Amazon" text="Amazon" upos="PROPN" xpos="NNP" />
+<word index="2" lemma="have" text="has" upos="AUX" xpos="VBZ" />
+<word index="3" lemma="apply" text="applied" upos="VERB" xpos="VBN" />
+<word index="4" lemma="for" text="for" upos="ADP" xpos="IN" />
+<word index="5" lemma="dozen" text="dozens" upos="NOUN" xpos="NNS" />
+<word index="6" lemma="of" text="of" upos="ADP" xpos="IN" />
+<word index="7" lemma="new" text="new" upos="ADJ" xpos="JJ" />
+<word index="8" lemma="domain" text="domains" upos="NOUN" xpos="NNS" />
+<word index="9" lemma="," text="," upos="PUNCT" xpos="," />
+<word index="10" lemma="include" text="including" upos="VERB" xpos="VBG" />
+<word index="11" lemma=".shop" text=".shop" upos="NOUN" xpos="NN" />
+<word index="12" lemma="," text="," upos="PUNCT" xpos="," />
+<word index="13" lemma=".song" text=".song" upos="NOUN" xpos="NN" />
+<word index="14" lemma="," text="," upos="PUNCT" xpos="," />
+<word index="15" lemma=".book" text=".book" upos="NOUN" xpos="NN" />
+<word index="16" lemma="and" text="and" upos="CCONJ" xpos="CC" />
+<word index="17" lemma=".kindle" text=".kindle" upos="NOUN" xpos="NN" />
+<word index="18" lemma="." text="." upos="PUNCT" xpos="." />
+</word-list>
+</sentence>
+<sentence num="4">
+<word-list>
+<word index="1" lemma="allow" text="Allowing" upos="VERB" xpos="VBG" />
+<word index="2" lemma="private" text="private" upos="ADJ" xpos="JJ" />
+<word index="3" lemma="company" text="companies" upos="NOUN" xpos="NNS" />
+<word index="4" lemma="to" text="to" upos="PART" xpos="TO" />
+<word index="5" lemma="register" text="register" upos="VERB" xpos="VB" />
+<word index="6" lemma="geographical" text="geographical" upos="ADJ" xpos="JJ" />
+<word index="7" lemma="name" text="names" upos="NOUN" xpos="NNS" />
+<word index="8" lemma="as" text="as" upos="ADP" xpos="IN" />
+<word index="9" lemma="gtld" text="gTLDs" upos="NOUN" xpos="NNS" />
+<word index="10" lemma="to" text="to" upos="PART" xpos="TO" />
+<word index="11" lemma="reinforce" text="reinforce" upos="VERB" xpos="VB" />
+<word index="12" lemma="they" text="their" upos="PRON" xpos="PRP$" />
+<word index="13" lemma="brand" text="brand" upos="NOUN" xpos="NN" />
+<word index="14" lemma="strategy" text="strategy" upos="NOUN" xpos="NN" />
+<word index="15" lemma="or" text="or" upos="CCONJ" xpos="CC" />
+<word index="16" lemma="to" text="to" upos="PART" xpos="TO" />
+<word index="17" lemma="profit" text="profit" upos="NOUN" xpos="NN" />
+<word index="18" lemma="from" text="from" upos="ADP" xpos="IN" />
+<word index="19" lemma="the" text="the" upos="DET" xpos="DT" />
+<word index="20" lemma="meaning" text="meaning" upos="NOUN" xpos="NN" />
+<word index="21" lemma="of" text="of" upos="ADP" xpos="IN" />
+<word index="22" lemma="these" text="these" upos="DET" xpos="DT" />
+<word index="23" lemma="name" text="names" upos="NOUN" xpos="NNS" />
+<word index="24" lemma="do" text="does" upos="AUX" xpos="VBZ" />
+<word index="25" lemma="not" text="not" upos="PART" xpos="RB" />
+<word index="26" lemma="serve" text="serve" upos="VERB" xpos="VB" />
+<word index="27" lemma="," text="," upos="PUNCT" xpos="," />
+<word index="28" lemma="in" text="in" upos="ADP" xpos="IN" />
+<word index="29" lemma="we" text="our" upos="PRON" xpos="PRP$" />
+<word index="30" lemma="view" text="view" upos="NOUN" xpos="NN" />
+<word index="31" lemma="," text="," upos="PUNCT" xpos="," />
+<word index="32" lemma="the" text="the" upos="DET" xpos="DT" />
+<word index="33" lemma="public" text="public" upos="ADJ" xpos="JJ" />
+<word index="34" lemma="interest" text="interest" upos="NOUN" xpos="NN" />
+<word index="35" lemma="," text="," upos="PUNCT" xpos="," />
+<word index="36" lemma="the" text="the" upos="DET" xpos="DT" />
+<word index="37" lemma="brazilian" text="Brazilian" upos="ADJ" xpos="JJ" />
+<word index="38" lemma="Ministry" text="Ministry" upos="NOUN" xpos="NN" />
+<word index="39" lemma="of" text="of" upos="ADP" xpos="IN" />
+<word index="40" lemma="Science" text="Science" upos="PROPN" xpos="NNP" />
+<word index="41" lemma="and" text="and" upos="CCONJ" xpos="CC" />
+<word index="42" lemma="technology" text="Technology" upos="PROPN" xpos="NNP" />
+<word index="43" lemma="say" text="said" upos="VERB" xpos="VBD" />
+<word index="44" lemma="." text="." upos="PUNCT" xpos="." />
+</word-list>
+</sentence>
+<sentence num="5">
+<word-list>
+<word index="1" lemma="Brazil" text="Brazil" upos="PROPN" xpos="NNP" />
+<word index="2" lemma="say" text="said" upos="VERB" xpos="VBD" />
+<word index="3" lemma="its" text="its" upos="PRON" xpos="PRP$" />
+<word index="4" lemma="view" text="views" upos="NOUN" xpos="NNS" />
+<word index="5" lemma="be" text="were" upos="AUX" xpos="VBD" />
+<word index="6" lemma="endorse" text="endorsed" upos="VERB" xpos="VBN" />
+<word index="7" lemma="last" text="last" upos="ADJ" xpos="JJ" />
+<word index="8" lemma="month" text="month" upos="NOUN" xpos="NN" />
+<word index="9" lemma="by" text="by" upos="ADP" xpos="IN" />
+<word index="10" lemma="other" text="other" upos="ADJ" xpos="JJ" />
+<word index="11" lemma="member" text="members" upos="NOUN" xpos="NNS" />
+<word index="12" lemma="of" text="of" upos="ADP" xpos="IN" />
+<word index="13" lemma="the" text="the" upos="DET" xpos="DT" />
+<word index="14" lemma="Amazon" text="Amazon" upos="PROPN" xpos="NNP" />
+<word index="15" lemma="cooperation" text="Cooperation" upos="PROPN" xpos="NNP" />
+<word index="16" lemma="Treaty" text="Treaty" upos="PROPN" xpos="NNP" />
+<word index="17" lemma="(" text="(" upos="PUNCT" xpos="-LRB-" />
+<word index="18" lemma="Bolivia" text="Bolivia" upos="PROPN" xpos="NNP" />
+<word index="19" lemma="," text="," upos="PUNCT" xpos="," />
+<word index="20" lemma="Colombia" text="Colombia" upos="PROPN" xpos="NNP" />
+<word index="21" lemma="," text="," upos="PUNCT" xpos="," />
+<word index="22" lemma="ecuador" text="Ecuador" upos="PROPN" xpos="NNP" />
+<word index="23" lemma="," text="," upos="PUNCT" xpos="," />
+<word index="24" lemma="Guyana" text="Guyana" upos="PROPN" xpos="NNP" />
+<word index="25" lemma="," text="," upos="PUNCT" xpos="," />
+<word index="26" lemma="suriname" text="Suriname" upos="PROPN" xpos="NNP" />
+<word index="27" lemma="and" text="and" upos="CCONJ" xpos="CC" />
+<word index="28" lemma="Venezuela" text="Venezuela" upos="PROPN" xpos="NNP" />
+<word index="29" lemma=")" text=")" upos="PUNCT" xpos="-RRB-" />
+<word index="30" lemma="." text="." upos="PUNCT" xpos="." />
+</word-list>
+</sentence>
+<sentence num="6">
+<word-list>
+<word index="1" lemma="Argentina" text="Argentina" upos="PROPN" xpos="NNP" />
+<word index="2" lemma="have" text="has" upos="AUX" xpos="VBZ" />
+<word index="3" lemma="lodge" text="lodged" upos="VERB" xpos="VBN" />
+<word index="4" lemma="a" text="an" upos="DET" xpos="DT" />
+<word index="5" lemma="expression" text="expression" upos="NOUN" xpos="NN" />
+<word index="6" lemma="of" text="of" upos="ADP" xpos="IN" />
+<word index="7" lemma="its" text="its" upos="PRON" xpos="PRP$" />
+<word index="8" lemma="unhappiness" text="unhappiness" upos="NOUN" xpos="NN" />
+<word index="9" lemma="that" text="that" upos="SCONJ" xpos="IN" />
+<word index="10" lemma="the" text="the" upos="DET" xpos="DT" />
+<word index="11" lemma="US" text="US" upos="PROPN" xpos="NNP" />
+<word index="12" lemma="outdoor" text="outdoor" upos="ADJ" xpos="JJ" />
+<word index="13" lemma="clothing" text="clothing" upos="NOUN" xpos="NN" />
+<word index="14" lemma="retailer" text="retailer" upos="NOUN" xpos="NN" />
+<word index="15" lemma="," text="," upos="PUNCT" xpos="," />
+<word index="16" lemma="Patagonia" text="Patagonia" upos="PROPN" xpos="NNP" />
+<word index="17" lemma="," text="," upos="PUNCT" xpos="," />
+<word index="18" lemma="be" text="is" upos="AUX" xpos="VBZ" />
+<word index="19" lemma="claim" text="claiming" upos="VERB" xpos="VBG" />
+<word index="20" lemma="a" text="a" upos="DET" xpos="DT" />
+<word index="21" lemma="domain" text="domain" upos="NOUN" xpos="NN" />
+<word index="22" lemma="name" text="name" upos="NOUN" xpos="NN" />
+<word index="23" lemma="that" text="that" upos="PRON" xpos="WDT" />
+<word index="24" lemma="have" text="has" upos="AUX" xpos="VBZ" />
+<word index="25" lemma="be" text="been" upos="AUX" xpos="VBN" />
+<word index="26" lemma="know" text="known" upos="VERB" xpos="VBN" />
+<word index="27" lemma="far" text="far" upos="ADV" xpos="RB" />
+<word index="28" lemma="longer" text="longer" upos="ADV" xpos="RBR" />
+<word index="29" lemma="as" text="as" upos="ADP" xpos="IN" />
+<word index="30" lemma="a" text="a" upos="DET" xpos="DT" />
+<word index="31" lemma="region" text="region" upos="NOUN" xpos="NN" />
+<word index="32" lemma="of" text="of" upos="ADP" xpos="IN" />
+<word index="33" lemma="spectacular" text="spectacular" upos="ADJ" xpos="JJ" />
+<word index="34" lemma="beauty" text="beauty" upos="NOUN" xpos="NN" />
+<word index="35" lemma="that" text="that" upos="PRON" xpos="WDT" />
+<word index="36" lemma="also" text="also" upos="ADV" xpos="RB" />
+<word index="37" lemma="have" text="has" upos="VERB" xpos="VBZ" />
+<word index="38" lemma="its" text="its" upos="PRON" xpos="PRP$" />
+<word index="39" lemma="own" text="own" upos="ADJ" xpos="JJ" />
+<word index="40" lemma="parliament" text="parliament" upos="NOUN" xpos="NN" />
+<word index="41" lemma="." text="." upos="PUNCT" xpos="." />
+</word-list>
+</sentence>
+<sentence num="7">
+<word-list>
+<word index="1" lemma="Argentina" text="Argentina" upos="PROPN" xpos="NNP" />
+<word index="2" lemma="reject" text="rejects" upos="VERB" xpos="VBZ" />
+<word index="3" lemma="the" text="the" upos="DET" xpos="DT" />
+<word index="4" lemma=".patagonia" text=".patagonia" upos="PROPN" xpos="NNP" />
+<word index="5" lemma="request" text="request" upos="NOUN" xpos="NN" />
+<word index="6" lemma="for" text="for" upos="ADP" xpos="IN" />
+<word index="7" lemma="a" text="a" upos="DET" xpos="DT" />
+<word index="8" lemma="new" text="new" upos="ADJ" xpos="JJ" />
+<word index="9" lemma="generic" text="generic" upos="ADJ" xpos="JJ" />
+<word index="10" lemma="top-level" text="top-level" upos="NOUN" xpos="NN" />
+<word index="11" lemma="domain" text="domain" upos="NOUN" xpos="NN" />
+<word index="12" lemma="," text="," upos="PUNCT" xpos="," />
+<word index="13" lemma="the" text="the" upos="DET" xpos="DT" />
+<word index="14" lemma="government" text="government" upos="NOUN" xpos="NN" />
+<word index="15" lemma="note" text="notes" upos="VERB" xpos="VBZ" />
+<word index="16" lemma="in" text="in" upos="ADP" xpos="IN" />
+<word index="17" lemma="a" text="an" upos="DET" xpos="DT" />
+<word index="18" lemma="appeal" text="appeal" upos="NOUN" xpos="NN" />
+<word index="19" lemma="." text="." upos="PUNCT" xpos="." />
+</word-list>
+</sentence>
+<sentence num="8">
+<word-list>
+<word index="1" lemma="Patagonia" text="Patagonia" upos="PROPN" xpos="NNP" />
+<word index="2" lemma="be" text="is" upos="AUX" xpos="VBZ" />
+<word index="3" lemma="a" text="a" upos="DET" xpos="DT" />
+<word index="4" lemma="relevant" text="relevant" upos="ADJ" xpos="JJ" />
+<word index="5" lemma="region" text="region" upos="NOUN" xpos="NN" />
+<word index="6" lemma="for" text="for" upos="ADP" xpos="IN" />
+<word index="7" lemma="the" text="the" upos="DET" xpos="DT" />
+<word index="8" lemma="country" text="countrys" upos="NOUN" xpos="NNS" />
+<word index="9" lemma="economy" text="economy" upos="NOUN" xpos="NN" />
+<word index="10" lemma="because" text="because" upos="SCONJ" xpos="IN" />
+<word index="11" lemma="it" text="it" upos="PRON" xpos="PRP" />
+<word index="12" lemma="have" text="has" upos="VERB" xpos="VBZ" />
+<word index="13" lemma="oil" text="oil" upos="NOUN" xpos="NN" />
+<word index="14" lemma="," text="," upos="PUNCT" xpos="," />
+<word index="15" lemma="fishing" text="fishing" upos="NOUN" xpos="NN" />
+<word index="16" lemma="," text="," upos="PUNCT" xpos="," />
+<word index="17" lemma="mining" text="mining" upos="NOUN" xpos="NN" />
+<word index="18" lemma="and" text="and" upos="CCONJ" xpos="CC" />
+<word index="19" lemma="agriculture" text="agriculture" upos="NOUN" xpos="NN" />
+<word index="20" lemma="resource" text="resources" upos="NOUN" xpos="NNS" />
+<word index="21" lemma="." text="." upos="PUNCT" xpos="." />
+</word-list>
+</sentence>
+<sentence num="9">
+<word-list>
+<word index="1" lemma="but" text="But" upos="CCONJ" xpos="CC" />
+<word index="2" lemma="Bartho" text="Bartho" upos="PROPN" xpos="NNP" />
+<word index="3" lemma="boer" text="Boer" upos="PROPN" xpos="NNP" />
+<word index="4" lemma="," text="," upos="PUNCT" xpos="," />
+<word index="5" lemma="a" text="a" upos="DET" xpos="DT" />
+<word index="6" lemma="spokesman" text="spokesman" upos="NOUN" xpos="NN" />
+<word index="7" lemma="for" text="for" upos="ADP" xpos="IN" />
+<word index="8" lemma="the" text="the" upos="DET" xpos="DT" />
+<word index="9" lemma="Mayor" text="Mayor" upos="PROPN" xpos="NNP" />
+<word index="10" lemma="," text="," upos="PUNCT" xpos="," />
+<word index="11" lemma="deny" text="denies" upos="VERB" xpos="VBZ" />
+<word index="12" lemma="that" text="that" upos="SCONJ" xpos="IN" />
+<word index="13" lemma="the" text="the" upos="DET" xpos="DT" />
+<word index="14" lemma="plan" text="plans" upos="NOUN" xpos="NNS" />
+<word index="15" lemma="be" text="are" upos="AUX" xpos="VBP" />
+<word index="16" lemma="illiberal" text="illiberal" upos="ADJ" xpos="JJ" />
+<word index="17" lemma="." text="." upos="PUNCT" xpos="." />
+</word-list>
+</sentence>
+<sentence num="10">
+<word-list>
+<word index="1" lemma="we" text="We" upos="PRON" xpos="PRP" />
+<word index="2" lemma="want" text="want" upos="VERB" xpos="VBP" />
+<word index="3" lemma="everyone" text="everyone" upos="PRON" xpos="NN" />
+<word index="4" lemma="to" text="to" upos="PART" xpos="TO" />
+<word index="5" lemma="be" text="be" upos="AUX" xpos="VB" />
+<word index="6" lemma="who" text="who" upos="PRON" xpos="WP" />
+<word index="7" lemma="he" text="he" upos="PRON" xpos="PRP" />
+<word index="8" lemma="and" text="and" upos="CCONJ" xpos="CC" />
+<word index="9" lemma="she" text="she" upos="PRON" xpos="PRP" />
+<word index="10" lemma="be" text="is" upos="VERB" xpos="VBZ" />
+<word index="11" lemma="whether" text="whether" upos="SCONJ" xpos="IN" />
+<word index="12" lemma="they" text="they" upos="PRON" xpos="PRP" />
+<word index="13" lemma="be" text="are" upos="AUX" xpos="VBP" />
+<word index="14" lemma="gay" text="gay" upos="ADJ" xpos="JJ" />
+<word index="15" lemma="and" text="and" upos="CCONJ" xpos="CC" />
+<word index="16" lemma="lesbian" text="lesbian" upos="ADJ" xpos="JJ" />
+<word index="17" lemma="or" text="or" upos="CCONJ" xpos="CC" />
+<word index="18" lemma="stand" text="stand" upos="VERB" xpos="VB" />
+<word index="19" lemma="up" text="up" upos="ADP" xpos="RP" />
+<word index="20" lemma="to" text="to" upos="ADP" xpos="IN" />
+<word index="21" lemma="violence" text="violence" upos="NOUN" xpos="NN" />
+<word index="22" lemma="and" text="and" upos="CCONJ" xpos="CC" />
+<word index="23" lemma="be" text="are" upos="AUX" xpos="VBP" />
+<word index="24" lemma="then" text="then" upos="ADV" xpos="RB" />
+<word index="25" lemma="victim" text="victims" upos="NOUN" xpos="NNS" />
+<word index="26" lemma="of" text="of" upos="ADP" xpos="IN" />
+<word index="27" lemma="harassment" text="harassment" upos="NOUN" xpos="NN" />
+<word index="28" lemma="." text="." upos="PUNCT" xpos="." />
+</word-list>
+</sentence>
+<sentence num="11">
+<word-list>
+<word index="1" lemma="we" text="We" upos="PRON" xpos="PRP" />
+<word index="2" lemma="as" text="as" upos="ADP" xpos="IN" />
+<word index="3" lemma="a" text="a" upos="DET" xpos="DT" />
+<word index="4" lemma="society" text="society" upos="NOUN" xpos="NN" />
+<word index="5" lemma="want" text="want" upos="VERB" xpos="VBP" />
+<word index="6" lemma="to" text="to" upos="PART" xpos="TO" />
+<word index="7" lemma="defend" text="defend" upos="VERB" xpos="VB" />
+<word index="8" lemma="they" text="them" upos="PRON" xpos="PRP" />
+<word index="9" lemma="." text="." upos="PUNCT" xpos="." />
+</word-list>
+</sentence>
+</stanfordnlp>
+</article>
+
