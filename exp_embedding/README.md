@@ -31,10 +31,10 @@ I compared and analysed different word embeddings for aligned words :
 
 * [corpus_embedding](corpus_embedding)  : training corpus + models
   * [ew_sew](corpus_embedding/ew_sew) : English Wikipedia and Simple English Wikipedia
-  * [fasttext](corpus_embedding/fasttext) : fastText model
+  * [fasttext](corpus_embedding/fasttext) : fastText model (currently just the model is here, if you want to retrain you can add the data in the same folder)
   * [news_crawl](corpus_embedding/news_crawl) : News Crawl 2011
   * [subimdb](corpus_embedding/subimdb) : SubIMDB
-  * [word2vec](corpus_embedding/word2vec) : word2vec model
+  * [word2vec](corpus_embedding/word2vec) : word2vec model (same than for fasttext)
 
 Once you have trained your models, you can use the main file for analysing word embeddings, `embeddings`(embeddings.py). All commands given as example in the file are assumed run from root folder in terminal.
 
@@ -49,7 +49,9 @@ There are several parameters that can be set :
 * `words` : default `None`, else path to a `.yaml` file containing keys `complex`, `int` and `ele`, with a list of words as values. Lists must be of same list. One example is provided in [words](./words.yaml)
 * `word_filter` : when using 2D-visualisations of words, filtering on POS or not
 
-After are briefly describe the different operations that can currently be done.
+Depending on the type of command you use, you might need to create a `figures` folder using `mkdir figures` in this directory.
+
+After are briefly described the different operations that can currently be done.
 
 * **Saving word embeddings**. Saving word embeddings for all levels. Possibility to store vector after performing PCA, in this case provide the number of dimensions. Currently used for experiments : PCA dim = 0 (no PCA), PCA dim = 2 (for 2D visualisations)
 

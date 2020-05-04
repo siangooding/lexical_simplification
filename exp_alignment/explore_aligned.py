@@ -2,9 +2,9 @@
 from collections import defaultdict
 import pickle
 
-PATH_ADV_INT = './onestop/aligned/adv-int.pkl'
-PATH_ADV_ELE = './onestop/aligned/adv-ele.pkl'
-PATH_INT_ELE = './onestop/aligned/int-ele.pkl'
+PATH_ADV_INT = './levelled_words/adv-int.pkl'
+PATH_ADV_ELE = './levelled_words/adv-ele.pkl'
+PATH_INT_ELE = './levelled_words/int-ele.pkl'
 
 def get_info_upos(words, message):
     upos = defaultdict(int)

@@ -23,7 +23,7 @@ def run_script(first, second):
     (first, second) must be one of the followings:
     (adv, ele), (adv, int), (ele, int)
     """
-    sep_file = "python ./onestop/aligned/create_sep_file.py -i ./onestop/aligned/{0}-{1}.txt -o ./giza-pre-process/{2}-{3}/"
+    sep_file = "python create_sep_file.py -i ../onestop/aligned/{0}-{1}.txt -o ./giza-pre-process/{2}-{3}/"
     subprocess.call(sep_file.format(first.upper(), second.upper(), first, second), shell=True)
     print("Created two separate files with distinct levels")
 
@@ -49,12 +49,13 @@ def run_script(first, second):
 
     files_list = listdir("./giza-output/{0}-{1}".format(first, second))
     va3_file = find_va3_file(files_list)
-    candidates = "python ./giza-output/find_candidates.py -g ./giza-output/{0}-{1}/{2} -so ./giza-pre-process/{0}-{1}/onestop.en-en.tok.{0}.xml.stanfordnlp -t ./giza-pre-process/{0}-{1}/onestop.en-en.tok.{1}.xml.stanfordnlp -sa ./onestop/aligned/{0}-{1}.pkl"
+    candidates = "python find_candidates.py -g ./giza-output/{0}-{1}/{2} -so ./giza-pre-process/{0}-{1}/onestop.en-en.tok.{0}.xml.stanfordnlp -t ./giza-pre-process/{0}-{1}/onestop.en-en.tok.{1}.xml.stanfordnlp -sa ../onestop/aligned/{0}-{1}.pkl"
     subprocess.call(candidates.format(first, second, va3_file), shell=True)
     print("Found and stored candidates")
 
 
 if __name__ == '__main__':
+    """ To be run from `exp_alignment` directory """
     ap = argparse.ArgumentParser()
     ap.add_argument("-f", "--first", required=True, help="First level to consider")
     ap.add_argument("-s", "--second", required=True, help="Second level to consider")

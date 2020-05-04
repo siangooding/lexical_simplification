@@ -14,7 +14,6 @@ First clone the project and install the `textrank` submodule properly:
 
 ```sh
 git clone https://github.com/Blinines/lexical_simplification.git
-
 ```
 
 Requirements can be found in the [requirements](./requirements.txt) and must be installed using:
@@ -25,8 +24,9 @@ pip install -r requirements.txt
 
 First create a `private.py` file in the settings folder, and add the following elements (defining variables):
 
+* `ROOT_PATH`: the absolute path to the folder containing this README.md.
 * `API_KEY_BIG_HUGE_LABS`: your API key to retrieve the synonyms from Moby Thesaurus. For this, you will need to create an account and make an API key demand. For more details please visit the [Big Huge Thesaurus website](https://words.bighugelabs.com/).
-* `RASP_PATH`: the absolute path to the RASP parser within your machine. You can download the parser on the [iLexIR website](https://www.ilexir.co.uk/rasp/index.html).
+* `RASP_PATH`: the absolute path to the RASP parser (`rasp.sh` file) within your machine. You can download the parser on the [iLexIR website](https://www.ilexir.co.uk/rasp/index.html).
 
 Details of the whole package can be found in the [setup](./setup.py) and must be installed using:
 
@@ -35,6 +35,13 @@ python setup.py install
 ```
 
 Please note that if you reuse this code and modify some code within a module, you might have to rerun the latter command for the system to work.
+
+The `textrank` folder was taken as a .zip file from its original [implementation](https://github.com/summanlp/textrank), branch d9252a233c93ec43693e0f145a025ae534b275b1. You need to install in particular the `summa` module:
+
+```sh
+cd textrank
+python setup.py install
+```
 
 ## Usage
 
@@ -57,6 +64,8 @@ The main file summing up the whole pipeline is [pipeline_readability](./pipeline
 * [textrank](./textrank): For the original TextRank implementation I used, please see the corresponding [implementation](https://github.com/summanlp/textrank). I slightly modified some parts for the purposes of my experiments.
 
 ## Citing
+
+The two following papers were used as a starting point for my dissertatioon:
 
 ```sh
 

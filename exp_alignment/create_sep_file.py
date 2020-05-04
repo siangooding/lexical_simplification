@@ -50,9 +50,9 @@ if __name__ == '__main__':
                save_folder=args["output"])
     
     # For the OneStopEnglish aligned corpus
-    # python create_sep_file.py -i ../onestop/aligned/ADV-ELE.txt -o ../giza-pre-process/
-    # python create_sep_file.py -i ../onestop/aligned/ADV-INT.txt -o ../giza-pre-process/
-    # python create_sep_file.py -i ../onestop/aligned/ELE-INT.txt -o ../giza-pre-process/
+    # python create_sep_file.py -i ../onestop/aligned/ADV-ELE.txt -o ./giza-pre-process/
+    # python create_sep_file.py -i ../onestop/aligned/ADV-INT.txt -o ./giza-pre-process/
+    # python create_sep_file.py -i ../onestop/aligned/ELE-INT.txt -o ./giza-pre-process/
 
     # input_path = '../onestop/aligned/ELE-INT.txt'
     # save_path = '../onestop/aligned/INT-ELE.txt'

@@ -6,6 +6,7 @@ from allennlp.commands.elmo import ElmoEmbedder
 from stanfordnlp_.stanfordnlp_parser import config_stanford_nlp
 from lexical_simplification.simplification import Sentence, Word
 from lexical_simplification.scores import SelectionScore, ImportanceSimplifyScore
+from settings.settings import ROOT_PATH
 
 NLP = stanfordnlp.Pipeline(**config_stanford_nlp['pre_tokenized'])
 ELMO = ElmoEmbedder()
@@ -19,8 +20,6 @@ class RecursiveSimplification:
         The .yaml config file should contain the followings : 
 
         Global parameters:
-        `cached_syn_path`: .yaml path to cached synonyms, by default and assuming root directory,
-        should be `./lexical_simplification/cached_synonyms.yaml`
         `f_save`: path to store logs for simplification. If not used should be set to None.
         
         Parameters for complexity + salience:
@@ -44,7 +43,7 @@ class RecursiveSimplification:
         with open(recursive_config_path) as file:
             config = yaml.load(file, Loader=yaml.FullLoader)
         
-        self.cached_syn_path = config["cached_syn_path"]
+        self.cached_syn_path = ROOT_PATH + 'lexical_simplification/cached_synonyms.yaml'
         self.f_save = config["f_save"]
 
         self.include_salience = config["include_salience"]

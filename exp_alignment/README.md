@@ -22,6 +22,12 @@ All code was executed using Python 3.7.4 + Ubuntu and a virtual environment.
 
 First install GIZA++ and make it work properly on your machine. I followed instructions from <https://medium.com/@weGotlieb/using-giza-for-bilingual-sentence-alignment-8b2dc828a04d> and it proved very useful.
 
+The `mosesdecoder` should not be accessible from my repo but you should clone it directly from its original repository, in the `exp_alignment` folder, replacing the empty one:
+
+```sh
+git clone https://github.com/moses-smt/mosesdecoder.git
+```
+
 Install the StanfordNLP parser : follow indications given in [README](./stanfordnlp/README.md) dedicated to the parser.
 
 ## Usage
