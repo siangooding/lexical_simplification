@@ -1,3 +1,0 @@
-[submodule "textrank"]
-	path = textrank
-	url = https://github.com/summanlp/textrank.git

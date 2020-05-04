@@ -10,6 +10,13 @@ Given a text the system will optionnally simplify this text at a given level, an
 
 All code was executed using Python 3.7.4 + Tensorflow 1.13.1, an NVIDIA GPU and a virtual environment.
 
+First clone the project and install the `textrank` submodule properly:
+
+```sh
+git clone https://github.com/Blinines/lexical_simplification.git
+
+```
+
 Requirements can be found in the [requirements](./requirements.txt) and must be installed using:
 
 ```sh
