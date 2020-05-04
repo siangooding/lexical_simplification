@@ -1,0 +1,12 @@
+cached_syn_path: '../lexical_simplification/cached_synonyms.yaml'
+f_save: 
+include_salience: False
+threshold: 0.5 
+type_imp: 
+alpha: 
+beta: 
+global_threshold: 
+salience_threshold: 
+level_target: 
+gamma: 
+delta: 

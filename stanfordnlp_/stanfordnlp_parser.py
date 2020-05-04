@@ -6,7 +6,7 @@ from os import listdir
 import stanfordnlp
 import xml.etree.ElementTree as ET
 
-with open('./stanfordnlp_/config.yaml') as file:
+with open('/home/ib431/Documents/projects/cam_mphil_project/stanfordnlp_/config.yaml') as file:
     config_global = yaml.load(file, Loader=yaml.FullLoader)
 
 config_stanford_nlp = config_global['config_stanford_nlp']

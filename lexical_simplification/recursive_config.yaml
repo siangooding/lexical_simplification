@@ -7,6 +7,6 @@ alpha:
 beta: 
 global_threshold: 
 salience_threshold: 
-level_target: 
+level_target: 2
 gamma: 0.5
 delta: 0.5

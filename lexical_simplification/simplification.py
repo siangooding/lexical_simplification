@@ -11,6 +11,8 @@ import pandas as pd
 import lexical_simplification.helper_functions as hf
 import string
 import inflect
+from settings.settings import API_KEY_BIG_HUGE_LABS
+from lexical_simplification.helper_functions import is_not_too_similar
 
 
 class Sentence:
@@ -53,7 +55,8 @@ class Sentence:
 
 class Word:
 
-	def __init__(self, sentence_object, index, cached_syn_path, nlp):
+	def __init__(self, sentence_object, index, cached_syn_path, nlp, elmo,
+				 glove_model, word2vec_model):
 
 		pos_tags = sentence_object.pos_tags
 		self.token_sent = sentence_object.tokenized
@@ -66,6 +69,10 @@ class Word:
 		self.lemma = None
 		self.is_plural = True if (self.pos == 'NNS') else False
 		self.nlp = nlp
+		self.elmo = elmo
+
+		self.glove_model = glove_model
+		self.word2vec_model = word2vec_model
  
 		# To cache the synonyms generated to speed up the process in the long term
 		self.cached_syn_path = cached_syn_path
@@ -78,10 +85,8 @@ class Word:
 										  'wordnet': self.get_synonym_wordnet,
 										  'glove_embeddings': self.get_synonym_embedding,
 										  'word2vec_embeddings': self.get_synonym_embedding}
-		self.get_synonym_from_resource = {'glove_embeddings': self.get_synonym_embedding,
-										  'word2vec_embeddings': self.get_synonym_embedding}
-		self.model_embedding = {'glove_embeddings': 'glove-wiki-gigaword-50',
-								'word2vec_embeddings': 'word2vec-google-news-300'}
+		self.model_embedding = {'glove_embeddings': self.glove_model,
+								'word2vec_embeddings': self.word2vec_model}
 	
 
 	def load_cached_synonyms(self, cached_syn_path):
@@ -124,8 +129,10 @@ class Word:
 		all_synonyms = self.get_cached_synonym_by_resource(lemma, resource)
 		if not all_synonyms:  # API call to get synonyms from Moby Thesaurus [http://moby-thesaurus.org/]
 			import requests
-			r = requests.get(url='http://words.bighugelabs.com/api/2/d8e9e06ab1208c4a35dc91b16f4f42a3/{0}/json'
-								.format(lemma))
+			# r = requests.get(url='http://words.bighugelabs.com/api/2/d8e9e06ab1208c4a35dc91b16f4f42a3/{0}/json'
+			# 					.format(lemma))
+			r = requests.get(url='http://words.bighugelabs.com/api/2/{0}/{1}/json'
+								.format(API_KEY_BIG_HUGE_LABS, lemma))
 			if r.status_code == 500:
 				print('GET API failed, may be due to exceeded number of requests')
 				print('Unable to find synonyms for {0} on Moby Thesaurus'.format(lemma))
@@ -229,8 +236,7 @@ class Word:
 	def get_synonym_embedding(self, lemma, resource):
 		all_synonyms = self.get_cached_synonym_by_resource(lemma, resource)
 		if not all_synonyms:
-			import gensim.downloader as api
-			model = api.load(self.model_embedding[resource])
+			model = self.model_embedding[resource]
 			try:
 				all_synonyms = model.most_similar(lemma, topn=30)
 				# all_synonyms = [list(nltk.pos_tag([elt[0]])[0]) for elt in all_synonyms]
@@ -327,7 +333,21 @@ class Word:
 		self.synonyms = [[[syn for syn in syn_l if syn not in ['', None]] 
 							for syn_l in self.synonyms]]
 		self.synonyms = [syn_l for sub_list in self.synonyms if sub_list != [] for syn_l in sub_list]
+		self.synonyms = self.discard_synonyms(self.synonyms)
+	
+	def discard_synonyms(self, synonyms):
+		updated_synonyms = []
+		for [syn] in synonyms:
+			# checking if not the same with different capital/lowercase letters
+			if self.word.lower() != syn.lower():
+				# checking that the words are not too similar
+				if is_not_too_similar(syn, self.word):
+					# checking that the lemma is different
+					info_syn = self.nlp([[syn]]).sentences[0].words[0]
+					if self.lemma != info_syn.lemma:
+						updated_synonyms.append([syn])
 
+		return updated_synonyms
 	
 	def select_synonyms(self, selection_score, topn=5):
 		if len(self.synonyms) > topn:
@@ -344,8 +364,8 @@ class Word:
 			synonym_scores = pd.DataFrame()
 			#print("synonyms", self.synonyms)
 			synonym_scores['synonyms'] = self.synonyms
-			#print("elmo", hf.get_elmo_score(self.synonyms, self.token_sent, self.index))
-			synonym_scores['sem_sim'] = hf.get_elmo_score(self.synonyms, self.token_sent, self.index)
+			#print("elmo", hf.get_elmo_score(self.synonyms, self.token_sent, self.index, self.elmo))
+			synonym_scores['sem_sim'] = hf.get_elmo_score(self.synonyms, self.token_sent, self.index, self.elmo)
 			#print("complexity", complex_word.get_synonym_complexities(self.synonyms, self.token_sent, self.index))
 			synonym_scores['complexity'] = complex_word.get_synonym_complexities(self.synonyms, self.token_sent, self.index)
 			#print("grammaticality", hf.get_gram_score(self.synonyms, self.token_sent, self.pos_sent, self.index))
@@ -370,7 +390,7 @@ class Word:
 		if len(self.synonyms) > 1:
 			synonym_scores = pd.DataFrame()
 			synonym_scores['synonyms'] = self.synonyms
-			synonym_scores['sem_sim'] = hf.get_elmo_score(self.synonyms, self.token_sent, self.index)
+			synonym_scores['sem_sim'] = hf.get_elmo_score(self.synonyms, self.token_sent, self.index, self.elmo)
 			synonym_scores['complexity'] = complex_word.get_synonym_complexities(self.synonyms, self.token_sent, self.index)
 			synonym_scores['grammaticality'] = hf.get_gram_score(self.synonyms, self.token_sent, self.pos_sent, self.index)
 			
@@ -387,7 +407,7 @@ class Word:
 		if len(self.synonyms) > 1:
 			synonym_scores = pd.DataFrame()
 			synonym_scores['synonyms'] = self.synonyms
-			synonym_scores['sem_sim'] = hf.get_elmo_score(self.synonyms, self.token_sent, self.index)
+			synonym_scores['sem_sim'] = hf.get_elmo_score(self.synonyms, self.token_sent, self.index, self.elmo)
 			synonym_scores['complexity'] = complex_word.get_synonym_complexities(self.synonyms, self.token_sent, self.index)
 			synonym_scores['grammaticality'] = hf.get_gram_score(self.synonyms, self.token_sent, self.pos_sent, self.index)
 			

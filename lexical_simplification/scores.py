@@ -8,10 +8,10 @@ from lexical_simplification.traditional_features import TO_DISCARD
 
 class SelectionScore:
     def __init__(self, level_target, gamma, delta,
-                 tsv_paths=['./readability_code/resources/CEFR_levels.tsv',
-                            './readability_code/resources/KET_list.tsv',
-                            './readability_code/resources/PET_list.tsv'],
-                 freq_info_path='./cefr_freq_info.pkl',
+                 tsv_paths=['/home/ib431/Documents/projects/cam_mphil_project/readability_code/resources/CEFR_levels.tsv',
+                            '/home/ib431/Documents/projects/cam_mphil_project/readability_code/resources/KET_list.tsv',
+                            '/home/ib431/Documents/projects/cam_mphil_project/readability_code/resources/PET_list.tsv'],
+                 freq_info_path='/home/ib431/Documents/projects/cam_mphil_project/cefr_freq_info.pkl',
                  to_discard=TO_DISCARD):
         self.nb_level_to_written = {2: 'KET', 3: 'PET', 4: 'FCE', 5: 'CAE', 6: 'CPE'}
         self.level_target = level_target

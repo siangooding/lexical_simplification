@@ -1,0 +1,7 @@
+folder: test_folder
+lower_level_folder: /home/ib431/Documents/projects/cam_mphil_project/data/baseline_0.5/
+medium_level_folder: /home/ib431/Documents/projects/cam_mphil_project/data/2_no_salience_0.8_0.5_0.5/
+higher_level_folder: /home/ib431/Documents/projects/cam_mphil_project/data/2_salience_cascade_0.3_0.8_0.5_0.5/
+indexes:
+  train: [0]
+  test: [0]

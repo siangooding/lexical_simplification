@@ -1,14 +1,8 @@
 import yaml
 import numpy as np
+from scipy.spatial.distance import cosine
 
-def get_elmo_score(synonyms, tok_sentence, index):
-	import nltk
-	from allennlp.commands.elmo import ElmoEmbedder
-	import numpy
-	import scipy 
-
-
-	elmo = ElmoEmbedder()
+def get_elmo_score(synonyms, tok_sentence, index, elmo):
 	
 	vectors = elmo.embed_sentence(tok_sentence)
 	original_vector = vectors[2][index]
@@ -27,18 +21,18 @@ def get_elmo_score(synonyms, tok_sentence, index):
 		else:
 			phrase_vectors = []
 			for i,word in enumerate(synonym):
-				phrase_vectors.append(numpy.array(new_vectors[2][(index + i)]))
-			new_vector = numpy.mean(phrase_vectors,axis=0)
+				phrase_vectors.append(np.array(new_vectors[2][(index + i)]))
+			new_vector = np.mean(phrase_vectors,axis=0)
 
 		
-		distances.append(scipy.spatial.distance.cosine(original_vector, new_vector))
+		distances.append(cosine(original_vector, new_vector))
 
 	return distances
 
 
 def get_ngram(left, right):
 	import pandas as pd
-	with open('./config.yaml') as file:
+	with open('/home/ib431/Documents/projects/cam_mphil_project/config.yaml') as file:
 		config = yaml.load(file, Loader=yaml.FullLoader)
 	two_grams = pd.read_csv(config['two_grams_path'], sep='\t', header=None, encoding='latin1')
 	two_grams.columns = ["freq", "w1", "w2"]
@@ -130,8 +124,9 @@ def different_than_one_edit(s1, s2):
 
 def more_than_one_insert(longer, shorter):
 	index_l, index_s = 0, 0
+	n_l, n_s = len(longer), len(shorter)
 	nb_difference, found  = 0, False
-	while (nb_difference <= 1) and (not found):
+	while (nb_difference <= 1) and (not found) and (index_l < n_l) and (index_s < n_s):
 		if longer[index_l].lower() == shorter[index_s].lower():
 			index_l += 1
 			index_s += 1
@@ -164,5 +159,5 @@ def is_not_too_similar(candidate, original):
 
 if __name__ == '__main__':
 	s1 = 'violence'
-	s2 = 'violance'
+	s2 = 'fight'
 	print(is_not_too_similar(candidate=s2, original=s1))

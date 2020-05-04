@@ -45,7 +45,10 @@ verb_tenses_aliases = {
 # be, can, do, will, must, have, may, need, dare, ought.
 verb_tenses = {}
 import os
-path = os.path.join(os.path.dirname(__file__), "verb.txt")
+import yaml
+with open('/home/ib431/Documents/projects/cam_mphil_project/config.yaml') as file:
+    config = yaml.load(file, Loader=yaml.FullLoader)
+path = os.path.join(config["verb_folder"], "verb.txt")
 data = open(path).readlines()
 for i in range(len(data)):
     a = data[i].strip().split(",")

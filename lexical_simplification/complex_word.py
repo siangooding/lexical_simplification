@@ -6,7 +6,7 @@ import collections
 import statistics
 import pandas as pd 
 
-with open('./config.yaml') as file:
+with open('/home/ib431/Documents/projects/cam_mphil_project/config.yaml') as file:
     config = yaml.load(file, Loader=yaml.FullLoader)
 
 model = labeler.SequenceLabeler.load(config['model_path'])
@@ -24,10 +24,10 @@ def get_complex_words(tokenised_string):
 	dataframe = pd.DataFrame()
 	dataframe['word'] = tokenised_string
 	dataframe['binary'] = 'N'
-	dataframe.to_csv('./lexical_simplification/complex_word.txt', 
+	dataframe.to_csv('/home/ib431/Documents/projects/cam_mphil_project/lexical_simplification/complex_word.txt', 
 					 sep = '\t',index=False, header=False, quotechar=' ')
 
-	sentences_test = experiment.read_input_files('./lexical_simplification/complex_word.txt')
+	sentences_test = experiment.read_input_files('/home/ib431/Documents/projects/cam_mphil_project/lexical_simplification/complex_word.txt')
 	batches_of_sentence_ids = experiment.create_batches_of_sentence_ids(sentences_test, config["batch_equal_size"], config['max_batch_size'])
 
 	for sentence_ids_in_batch in batches_of_sentence_ids:
