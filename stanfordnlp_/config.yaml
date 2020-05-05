@@ -1,0 +1,11 @@
+config_stanford_nlp:
+  default:
+    models_dir: stanfordnlp_resources
+  pre_tokenized:
+    pos_batch_size: 1000
+    pos_model_path: stanfordnlp_resources/en_ewt_models/en_ewt_tagger.pt
+    pos_pretrain_path: stanfordnlp_resources/en_ewt_models/en_ewt.pretrain.pt
+    tokenize_model_path: stanfordnlp_resources/en_ewt_models/en_ewt_tokenizer.pt
+    lemma_model_path: stanfordnlp_resources/en_ewt_models/en_ewt_lemmatizer.pt
+    processors: tokenize,pos,lemma
+    tokenize_pretokenized: true

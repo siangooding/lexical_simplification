@@ -1,4 +1,3 @@
-cached_syn_path: '/home/ib431/Documents/projects/cam_mphil_project/lexical_simplification/cached_synonyms.yaml'
 f_save: 
 include_salience: False
 threshold: 0.5 

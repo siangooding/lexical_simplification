@@ -5,8 +5,9 @@ import os
 from os import listdir
 import stanfordnlp
 import xml.etree.ElementTree as ET
+from settings.settings import ROOT_PATH, STANFORD_RESOURCE_PATH
 
-with open('/home/ib431/Documents/projects/cam_mphil_project/stanfordnlp_/config.yaml') as file:
+with open(ROOT_PATH + 'stanfordnlp_/config.yaml') as file:
     config_global = yaml.load(file, Loader=yaml.FullLoader)
 
 config_stanford_nlp = config_global['config_stanford_nlp']
@@ -24,13 +25,24 @@ class StanfordNLP():
     Processors summary
     Tokenize - POS - Lemma
     """
-    def __init__(self, lang='en', config='pre_tokenized'):
+    def __init__(self, lang='en', config_type='pre_tokenized'):
         super().__init__()
         # Downloads the language models for the neural pipeline if never installed before
-        if 'stanfordnlp_resources' not in listdir(config_stanford_nlp['general_dir']):
+        if 'stanfordnlp_resources' not in listdir(STANFORD_RESOURCE_PATH):
             stanfordnlp.download('en')
         # Initialize pipeline
-        self.nlp = stanfordnlp.Pipeline(**config_stanford_nlp[config])
+        self.config_type = config_type
+        config = self.create_config_for_parser()
+        self.nlp = stanfordnlp.Pipeline(**config)
+    
+    def create_config_for_parser(self):
+        if self.config_type == 'default':
+            return {'models_dir': STANFORD_RESOURCE_PATH + config_stanford_nlp['default']['models_dir']}
+        else:  # self.config == 'pre_tokenized', default
+            res = {key: val for key, val in config_stanford_nlp['pre_tokenized'].items() if key in ['pos_batch_size', 'processors', 'tokenize_pretokenized']}
+            for key in ['pos_model_path', 'pos_pretrain_path', 'tokenize_model_path', 'lemma_model_path']:
+                res[key] = STANFORD_RESOURCE_PATH + config_stanford_nlp['pre_tokenized'][key]
+            return res
     
     def get_lines(self, lines_path):
         lines = []
@@ -98,9 +110,9 @@ if __name__ == '__main__':
     PARSER.write_xml_format(lines_path=args["input"],
                             folder_xml=args["output"])
     
-    # Toy example, assuming .txt file in ./stanfordnlp folder
-    # python ./stanfordnlp/stanfordnlp_parser.py -i ./stanfordnlp/test.txt -o ./stanfordnlp/ 
+    # Toy example, assuming .txt file in ./stanfordnlp_ folder
+    # python ./stanfordnlp_/stanfordnlp_parser.py -i ./stanfordnlp_/test.txt -o ./stanfordnlp_/ 
 
     # For aligned corpus and GIZA++
-    # python ./stanfordnlp/stanfordnlp_parser.py -i ./giza-pre-process/onestop.en-en.tok.adv -o ./giza-pre-process  
-    # python ./stanfordnlp/stanfordnlp_parser.py -i ./giza-pre-process/onestop.en-en.tok.ele -o ./giza-pre-process 
+    # python ./stanfordnlp_/stanfordnlp_parser.py -i ./giza-pre-process/onestop.en-en.tok.adv -o ./giza-pre-process  
+    # python ./stanfordnlp_/stanfordnlp_parser.py -i ./giza-pre-process/onestop.en-en.tok.ele -o ./giza-pre-process 

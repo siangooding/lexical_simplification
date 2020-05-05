@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-py
 import argparse
 from readability_code.main_extract_features import analyze_files
+from settings.settings import ROOT_PATH
 
-READABILITY_CODE_PATH = '/home/ib431/Documents/projects/cam_mphil_project/readability_code/'
+READABILITY_CODE_PATH = ROOT_PATH + 'readability_code/'
 NEW_LEVELS = {'1': 1, '2': 2, '3': 3}
 
 
@@ -19,6 +20,6 @@ if __name__ == '__main__':
     args = vars(ap.parse_args())
 
     analyze_files(main_path=READABILITY_CODE_PATH,
-                  inputdir='/home/ib431/Documents/projects/cam_mphil_project/readability_code/OneStop-modified/'+args["input_folder"],
-                  outdir="/home/ib431/Documents/projects/cam_mphil_project/readability_code/OneStop_features", levels=NEW_LEVELS,
+                  inputdir=ROOT_PATH + 'readability_code/OneStop-modified/'+args["input_folder"],
+                  outdir=ROOT_PATH + "readability_code/OneStop_features", levels=NEW_LEVELS,
                   features=args["features"], output_file=args["output_file"], is_test=False)

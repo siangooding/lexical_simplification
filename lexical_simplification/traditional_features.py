@@ -6,6 +6,7 @@ from os import listdir
 from collections import defaultdict
 from nltk.corpus import stopwords
 import xml.etree.ElementTree as ET
+from settings.settings import ROOT_PATH 
 
 stop_words = set(stopwords.words('english'))
 punctuation = set(['.', ',', ';', ':', '"', "'", '`', '?', '!'])
@@ -48,8 +49,8 @@ def update_word_count(text, parser, word_count=defaultdict(int), tot_count=0):
     return word_count, tot_count
 
 
-def save_frequency_info(parser, levelled_text_folder='./readability_code/CEPP-rhaps/',
-                        save_path='./cefr_freq_info.pkl'):
+def save_frequency_info(parser, levelled_text_folder=ROOT_PATH + 'readability_code/CEPP-rhaps/',
+                        save_path=ROOT_PATH + 'cefr_freq_info.pkl'):
     stored_info = {"word_count": {}, "tot_count": {}}
     levels = listdir(levelled_text_folder)
     levels = [level for level in levels if len(level) == 3]
@@ -75,7 +76,7 @@ def save_frequency_info(parser, levelled_text_folder='./readability_code/CEPP-rh
 if __name__ == '__main__':
     from stanfordnlp_.stanfordnlp_parser import StanfordNLP
     # save_frequency_info(parser=StanfordNLP())
-    frequency_info = pickle.load(open('./cefr_freq_info.pkl', 'rb'))
+    frequency_info = pickle.load(open(ROOT_PATH + 'cefr_freq_info.pkl', 'rb'))
     print(frequency_info["tot_count"])
     print(frequency_info["word_count"]["CAE"].keys())
     for level in frequency_info["word_count"]:

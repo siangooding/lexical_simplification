@@ -6,8 +6,9 @@ from sklearn import preprocessing
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV
 from sklearn.ensemble import RandomForestClassifier
+from settings.settings import ROOT_PATH
 
-ROOT_LOG_PATH = '/home/ib431/Documents/projects/cam_mphil_project/final_exp_simplify/logs_grid_search/'
+ROOT_LOG_PATH = ROOT_PATH + 'final_exp_simplify/logs_grid_search/'
 
 PARAM_GRID = {
     'clf__n_estimators': [50, 100, 200],

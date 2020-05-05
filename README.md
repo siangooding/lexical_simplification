@@ -10,7 +10,7 @@ Given a text the system will optionnally simplify this text at a given level, an
 
 All code was executed using Python 3.7.4 + Tensorflow 1.13.1, an NVIDIA GPU and a virtual environment.
 
-First clone the project and install the `textrank` submodule properly:
+First clone the project:
 
 ```sh
 git clone https://github.com/Blinines/lexical_simplification.git
@@ -27,6 +27,7 @@ First create a `private.py` file in the settings folder, and add the following e
 * `ROOT_PATH`: the absolute path to the folder containing this README.md.
 * `API_KEY_BIG_HUGE_LABS`: your API key to retrieve the synonyms from Moby Thesaurus. For this, you will need to create an account and make an API key demand. For more details please visit the [Big Huge Thesaurus website](https://words.bighugelabs.com/).
 * `RASP_PATH`: the absolute path to the RASP parser (`rasp.sh` file) within your machine. You can download the parser on the [iLexIR website](https://www.ilexir.co.uk/rasp/index.html).
+* `STANFORD_RESOURCE_PATH`: the absolute path where you want your StanfordNLP parser resources to be stored.
 
 Details of the whole package can be found in the [setup](./setup.py) and must be installed using:
 
@@ -45,7 +46,7 @@ python setup.py install
 
 ## Usage
 
-The main file summing up the whole pipeline is [pipeline_readability](./pipeline_readability.py). Other folders or files either include helpers, modules or specific experiment. If looking more in detail at one experiment, `exp` should be in the folder name and a corresponding README in the folder.
+The main file summing up the whole pipeline is [pipeline_readability](./pipeline_readability.py). Other folders or files either include helpers, modules or specific experiments. If looking more in detail at one experiment, `exp` should be in the folder name and a corresponding README in the folder.
 
 ## Structure
 
@@ -54,7 +55,7 @@ The main file summing up the whole pipeline is [pipeline_readability](./pipeline
 * [exp_embedding](./exp_embedding): quantitative and qualitative analysis related to aligned words. Exploring embeddings between paired words at different levels. See corresponding [README](./exp_embedding/README.md) for more details.
 * [exp_threshold](./exp_threshold): impact of threshold in the original lexical simplification system introduced in [Gooding and Kochmar (2019)](https://www.aclweb.org/anthology/D19-1491.pdf). See corresponding [README](./exp_threshold/README.md) for more details.
 * [final_exp_mapping](./final_exp_mapping): to add if run in the end
-* [final_exp_simplify](./final_exp_simplify): to add, final experiment for main task
+* [final_exp_simplify](./final_exp_simplify): main experiment run for my dissertation. See corresponding [README](./final_exp_simplify/README.md) for more details.
 * [format_input](./format_input): formatting a raw text file into an _.xml_ file, with the corresponding RASP output.
 * [lexical_simplification](./lexical_simplification): For the original lexical simplification introduced in [Gooding and Kochmar (2019)](https://www.aclweb.org/anthology/D19-1491.pdf), please see [Sian's code](https://github.com/siangooding/lexical_simplification). I have built my new system upon this code.
 * [onestop](./onestop): Some [OneStopEnglish texts]((https://www.aclweb.org/anthology/W18-0535.pdf)) used within my experiments. Includes aligned texts, simplified texts with different systems, and samples. All original texts were originally taken on the official [OneStopEnglish repository](https://github.com/nishkalavallabhi/OneStopEnglishCorpus).

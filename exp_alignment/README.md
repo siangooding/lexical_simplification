@@ -10,9 +10,9 @@ Resources :
 
 * Compiling GIZA++ : <https://medium.com/@weGotlieb/using-giza-for-bilingual-sentence-alignment-8b2dc828a04d>
 
-* StanfordNLP Parser (see [README](./stanfordnlp/README.md) for usage of StanfordNLP parser) : <https://stanfordnlp.github.io/stanfordnlp/installation_usage.html#getting-started>
+* StanfordNLP Parser (see [README](../stanfordnlp_/README.md) for usage of StanfordNLP parser) : <https://stanfordnlp.github.io/stanfordnlp/installation_usage.html#getting-started>
 
-* Post-processing of GIZA++ output : Recursive Context-Aware Lexical Simplification - Gooding and Kochmar - 2019
+* Post-processing of GIZA++ output : [Recursive Context-Aware Lexical Simplification - Gooding and Kochmar - 2019]((https://www.aclweb.org/anthology/D19-1491.pdf))
 
 * OneStopEnglish aligned sentences : <https://github.com/nishkalavallabhi/OneStopEnglishCorpus/tree/master/Sentence-Aligned>
 
@@ -28,20 +28,20 @@ The `mosesdecoder` should not be accessible from my repo but you should clone it
 git clone https://github.com/moses-smt/mosesdecoder.git
 ```
 
-Install the StanfordNLP parser : follow indications given in [README](./stanfordnlp/README.md) dedicated to the parser.
+Install the StanfordNLP parser : follow indications given in [README](../stanfordnlp_/README.md) dedicated to the parser.
 
 ## Usage
 
-The command line below are provided when aligning words between aligned sentences from the Advanced level (higher level) and the Elementary level (lower level), in the OneStopEnglish corpus. The initial file containing the aligned sentences - `ADV-ELE.txt` -, is in the `./onestop/aligned` folder, whereas I stored all info needed pre-GIZA++ in the `./giza-pre-process` folder, and all the info relative to GIZA++ output in the `./giza-output` folder. All commands given are assumed to be run from the `exp_alignment` folder from the root directory of the project.
+The command line below are provided when aligning words between aligned sentences from the Advanced level (higher level) and the Elementary level (lower level), in the OneStopEnglish corpus. The initial file containing the aligned sentences - `ADV-ELE.txt` -, is in the `../onestop/aligned` folder, whereas I stored all info needed pre-GIZA++ in the `./giza-pre-process` folder, and all the info relative to GIZA++ output in the `./giza-output` folder. All commands given are assumed to be run from the `exp_alignment` folder of the complete repository.
 
 * **Creating folders.** Once you have GIZA++ installed you should have a `giza-pp-master` folder. Create two additional folders in root directory of main project, `giza-output` and `giza-pre-process`. In both folders, create three additional folders : `adv-int`, `adv-ele` and `int-ele`.
 
-* **Pre-processing the aligned sentences.** The original aligned sentences contained some no encoding-friendly characters hence I cleaned the text manually. The cleaned versions of the aligned sentences are in the `./onestop/aligned` folder, namely `ADV-ELE.txt`, `ADV-INT.txt` and `ELE-INT.txt`. It can be reused directly.
+* **Pre-processing the aligned sentences.** The original aligned sentences contained some no encoding-friendly characters hence I cleaned the text manually. The cleaned versions of the aligned sentences are in the `../onestop/aligned` folder, namely `ADV-ELE.txt`, `ADV-INT.txt` and `ELE-INT.txt`. It can be reused directly.
 
 * **Create two separate files for each level.** In order to use GIZA++, two files need to be created, with one sentence per line and separated levels.
 
 ```bash
-python ./onestop/aligned/create_sep_file.py -i ./onestop/aligned/ADV-ELE.txt -o ./giza-pre-process/adv-ele/
+python ../onestop/aligned/create_sep_file.py -i ../onestop/aligned/ADV-ELE.txt -o ./giza-pre-process/adv-ele/
 ```
 
 * **Pre-processing the text for GIZA++ input.** The aim of this step is to tokenize the text for GIZA++ input.

@@ -143,7 +143,7 @@ class RecursiveSimplification:
 
 
 if __name__ == '__main__':
-    RECURSIVE_CONFIG_PATH = '/home/ib431/Documents/projects/cam_mphil_project/lexical_simplification/recursive_config.yaml'
+    RECURSIVE_CONFIG_PATH = ROOT_PATH + 'lexical_simplification/recursive_config.yaml'
     recursive_simplification = RecursiveSimplification(recursive_config_path=RECURSIVE_CONFIG_PATH)
 
     import nltk

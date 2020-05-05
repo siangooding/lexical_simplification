@@ -9,9 +9,10 @@ from sklearn import preprocessing
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import confusion_matrix
 from sklearn.ensemble import RandomForestClassifier
+from settings.settings import ROOT_PATH
 
-STORED_FEAT_PATH = '/home/ib431/Documents/projects/cam_mphil_project/readability_code/OneStop_features/'
-ROOT_LOG_PATH = '/home/ib431/Documents/projects/cam_mphil_project/final_exp_simplify/logs_grid_search/'
+STORED_FEAT_PATH = ROOT_PATH + 'readability_code/OneStop_features/'
+ROOT_LOG_PATH = ROOT_PATH + 'final_exp_simplify/logs_grid_search/'
 POSSIBLE_FEATURES = ['T', 'L', 'SGR', 'NER']
 
 class GridSearchLSParams:

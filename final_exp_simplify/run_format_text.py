@@ -4,10 +4,11 @@ import yaml
 import subprocess
 from os import listdir
 from format_input.format_input_xml import create_complete_xml
+from settings.settings import ROOT_PATH
 
-OUTPUT_ROOT = '/home/ib431/Documents/projects/cam_mphil_project/readability_code/OneStop-modified/'
+OUTPUT_ROOT = ROOT_PATH + 'readability_code/OneStop-modified/'
 
-FORMAT_CONFIG_PATH = '/home/ib431/Documents/projects/cam_mphil_project/final_exp_simplify/format_config.yaml'
+FORMAT_CONFIG_PATH = ROOT_PATH + 'final_exp_simplify/format_config.yaml'
 with open(FORMAT_CONFIG_PATH) as file:
     CONFIG = yaml.load(file, Loader=yaml.FullLoader)
 INDEXES_TRAIN = CONFIG['indexes']['train']
@@ -34,13 +35,13 @@ if __name__ == '__main__':
 
     KEY_TO_LEVEL = {'lower_level_folder': 1, 'medium_level_folder': 2, 'higher_level_folder': 3}
     for key, level in KEY_TO_LEVEL.items():
-        filenames = get_files_name(path=CONFIG[key])
+        filenames = get_files_name(path=ROOT_PATH + CONFIG[key])
         for index, filename in enumerate(filenames):
             if index in INDEXES_TRAIN:
-                create_complete_xml(text_path=CONFIG['lower_level_folder']+filename,
+                create_complete_xml(text_path=ROOT_PATH + CONFIG[key] + filename,
                                     folder_xml="{0}/{1}/{2}/".format(OUTPUT_ROOT+CONFIG['folder'], 'train', level))
             if index in INDEXES_TEST:
-                create_complete_xml(text_path=CONFIG['lower_level_folder']+filename,
+                create_complete_xml(text_path=ROOT_PATH + CONFIG[key] + filename,
                                     folder_xml="{0}/{1}/{2}/".format(OUTPUT_ROOT+CONFIG['folder'], 'test', level))
 
 

@@ -27,7 +27,7 @@ I compared and analysed different word embeddings for aligned words :
 
 ### Usage
 
-* **Training a word embedding model.** The main file to reproduce my training is [train_embedding_model](train_embedding_model.py). Before using this script, you have to download the corresponding data on the different websites given as pointer. On the root folder I had a `corpus_embedding` folder with the following structure :
+* **Training a word embedding model.** The main file to reproduce my training is [train_embedding_model](./train_embedding_model.py). Before using this script, you have to download the corresponding data on the different websites given as pointer. On the root folder I had a `corpus_embedding` folder with the following structure :
 
 * [corpus_embedding](corpus_embedding)  : training corpus + models
   * [ew_sew](corpus_embedding/ew_sew) : English Wikipedia and Simple English Wikipedia
@@ -36,7 +36,7 @@ I compared and analysed different word embeddings for aligned words :
   * [subimdb](corpus_embedding/subimdb) : SubIMDB
   * [word2vec](corpus_embedding/word2vec) : word2vec model (same than for fasttext)
 
-Once you have trained your models, you can use the main file for analysing word embeddings, `embeddings`(embeddings.py). All commands given as example in the file are assumed run from root folder in terminal.
+Once you have trained your models, you can use the main file for analysing word embeddings, [embeddings](./embeddings.py). All commands given as example in the file are assumed run from the `exp_embedding` folder.
 
 There are several parameters that can be set :
 

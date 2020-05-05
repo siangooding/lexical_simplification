@@ -1,6 +1,7 @@
 import yaml
 import numpy as np
 from scipy.spatial.distance import cosine
+from settings.settings import ROOT_PATH
 
 def get_elmo_score(synonyms, tok_sentence, index, elmo):
 	
@@ -32,9 +33,7 @@ def get_elmo_score(synonyms, tok_sentence, index, elmo):
 
 def get_ngram(left, right):
 	import pandas as pd
-	with open('/home/ib431/Documents/projects/cam_mphil_project/config.yaml') as file:
-		config = yaml.load(file, Loader=yaml.FullLoader)
-	two_grams = pd.read_csv(config['two_grams_path'], sep='\t', header=None, encoding='latin1')
+	two_grams = pd.read_csv(ROOT_PATH + 'lexical_simplification/ngram/w2_.txt', sep='\t', header=None, encoding='latin1')
 	two_grams.columns = ["freq", "w1", "w2"]
 
 	freq = two_grams[(two_grams["w1"]==left) & (two_grams["w2"]==right)].freq.values

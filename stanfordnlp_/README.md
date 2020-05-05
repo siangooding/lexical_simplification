@@ -19,8 +19,6 @@ stanfordnlp.download('en')
 
 You will be asked whether you want to store it in an alternate directory, you can press yes and change the default directory.
 
-In the [config](./config.yaml) file, change all the paths depending on where you stored the StanfordNLP models.
-
 ## Usage
 
 Code was written so that the scripts are executed from the root directory of the whole projet (the root directory contains the `stanfordnlp` folder).

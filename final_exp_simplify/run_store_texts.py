@@ -8,17 +8,18 @@ import subprocess
 from os import listdir
 from datetime import datetime
 from lexical_simplification.recursive_simplification import RecursiveSimplification
+from settings.settings import ROOT_PATH
 
 # One unique config files for all experiments run : to be changed each time
-RECURSIVE_CONFIG_PATH = '/home/ib431/Documents/projects/cam_mphil_project/final_exp_simplify/recursive_config_exp.yaml'
+RECURSIVE_CONFIG_PATH = ROOT_PATH + 'final_exp_simplify/recursive_config_exp.yaml'
 with open(RECURSIVE_CONFIG_PATH) as file:
     CONFIG = yaml.load(file, Loader=yaml.FullLoader)
 
-INPUT_ROOT = '/home/ib431/Documents/projects/cam_mphil_project/onestop/adv-text-all/'
+INPUT_ROOT = ROOT_PATH + 'onestop/adv-text-all/'
 INPUT_FILES = listdir(INPUT_ROOT)
-OUTPUT_ROOT = '/home/ib431/Documents/projects/cam_mphil_project/data/{0}/'
-LOG_PICKLE = '/home/ib431/Documents/projects/cam_mphil_project/data/{0}/log.pkl'
-F_SAVE = '/home/ib431/Documents/projects/cam_mphil_project/data/{0}/process_pipeline.txt'
+OUTPUT_ROOT = ROOT_PATH + 'data/{0}/'
+LOG_PICKLE = ROOT_PATH + 'data/{0}/log.pkl'
+F_SAVE = ROOT_PATH + 'data/{0}/process_pipeline.txt'
 
 TYPES = {'baseline': 'baseline_{0}',
          'no_salience': '{0}_no_salience_{1}_{2}_{3}',

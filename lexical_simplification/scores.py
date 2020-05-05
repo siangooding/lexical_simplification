@@ -5,13 +5,14 @@ from summa.keywords import keywords
 import lexical_simplification.complex_word as complex_word
 from lexical_simplification.traditional_features import get_key_val, is_string_of_float
 from lexical_simplification.traditional_features import TO_DISCARD
+from settings.settings import ROOT_PATH 
 
 class SelectionScore:
     def __init__(self, level_target, gamma, delta,
-                 tsv_paths=['/home/ib431/Documents/projects/cam_mphil_project/readability_code/resources/CEFR_levels.tsv',
-                            '/home/ib431/Documents/projects/cam_mphil_project/readability_code/resources/KET_list.tsv',
-                            '/home/ib431/Documents/projects/cam_mphil_project/readability_code/resources/PET_list.tsv'],
-                 freq_info_path='/home/ib431/Documents/projects/cam_mphil_project/cefr_freq_info.pkl',
+                 tsv_paths=[ROOT_PATH + 'readability_code/resources/CEFR_levels.tsv',
+                            ROOT_PATH + 'readability_code/resources/KET_list.tsv',
+                            ROOT_PATH + 'readability_code/resources/PET_list.tsv'],
+                 freq_info_path=ROOT_PATH + 'cefr_freq_info.pkl',
                  to_discard=TO_DISCARD):
         self.nb_level_to_written = {2: 'KET', 3: 'PET', 4: 'FCE', 5: 'CAE', 6: 'CPE'}
         self.level_target = level_target
@@ -108,7 +109,7 @@ class ImportanceSimplifyScore:
     
     def get_salience_scores(self, tokenized):
         # Computing salience scores with TextRank algorithms
-        # Implementation taken from https://github.com/summanlp/textrank
+        # Implementation taken from https://github.com/summanlp/textrank and modified
         return keywords(' '.join(tokenized), ratio=1, scores=True, return_single_words_score=True)
     
     def get_combined_scores(self, ignore_index, tokenized, indexes):

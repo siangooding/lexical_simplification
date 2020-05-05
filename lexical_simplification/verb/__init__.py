@@ -46,9 +46,8 @@ verb_tenses_aliases = {
 verb_tenses = {}
 import os
 import yaml
-with open('/home/ib431/Documents/projects/cam_mphil_project/config.yaml') as file:
-    config = yaml.load(file, Loader=yaml.FullLoader)
-path = os.path.join(config["verb_folder"], "verb.txt")
+from settings.settings import ROOT_PATH
+path = os.path.join(ROOT_PATH + 'lexical_simplification/verb/', "verb.txt")
 data = open(path).readlines()
 for i in range(len(data)):
     a = data[i].strip().split(",")
