@@ -10,6 +10,6 @@ Resources :
 
 ## Structure
 
-* [distrib_level_vis.py](./distrib_level_vis.py): Distribution levels visualization
-* [distrib_level.py](./distrib_level.py): Storing complexities for each token within a text/sentence into a pickle file
-* [distrib.pickle](./distrib.pickle): collected data
+* [distrib_level_vis](./distrib_level_vis.py): Distribution levels visualization
+* [distrib_level](./distrib_level.py): Storing complexities for each token within a text/sentence into a pickle file
+* [distrib](./distrib.pickle): collected data
