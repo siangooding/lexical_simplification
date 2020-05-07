@@ -3,12 +3,13 @@ import yaml
 import stanfordnlp
 import gensim.downloader as api
 from allennlp.commands.elmo import ElmoEmbedder
-from stanfordnlp_.stanfordnlp_parser import config_stanford_nlp
+from stanfordnlp_.stanfordnlp_parser import StanfordNLP
 from lexical_simplification.simplification import Sentence, Word
 from lexical_simplification.scores import SelectionScore, ImportanceSimplifyScore
 from settings.settings import ROOT_PATH
 
-NLP = stanfordnlp.Pipeline(**config_stanford_nlp['pre_tokenized'])
+NLP = StanfordNLP()
+NLP = NLP.nlp
 ELMO = ElmoEmbedder()
 GLOVE_MODEL = api.load('glove-wiki-gigaword-50')
 WORD2VEC_MODEL = api.load('word2vec-google-news-300')

@@ -43,38 +43,40 @@ def create_complete_xml(text_path, folder_xml):
         file_name_no_ext = '.'.join(os.path.basename(text_path).split('.')[:-1])
     else:
         file_name_no_ext = '.'.join(os.path.basename(text_path).split('.'))
-    
-    simple_xml_path = folder_xml + file_name_no_ext + '.xml'
-    rasp_xml_path = folder_xml + file_name_no_ext + '.xml.rasptemp'
 
-    convert_txt_to_simple_xml(text_path=text_path, 
-                              folder_xml=folder_xml) # Convert .txt to .xml with text only
-    format_text_to_input(simple_xml_path=folder_xml+file_name_no_ext+'.xml', 
-                         folder_xml=folder_xml)  # Create .xml.rasptemp with rasp
+    if not os.path.exists(folder_xml+file_name_no_ext+'.xml.rhaps'):
+        
+        simple_xml_path = folder_xml + file_name_no_ext + '.xml'
+        rasp_xml_path = folder_xml + file_name_no_ext + '.xml.rasptemp'
 
-    # Create XML file for the final complete XML file
-    root= ET.Element('xml')
+        convert_txt_to_simple_xml(text_path=text_path, 
+                                folder_xml=folder_xml) # Convert .txt to .xml with text only
+        format_text_to_input(simple_xml_path=folder_xml+file_name_no_ext+'.xml', 
+                            folder_xml=folder_xml)  # Create .xml.rasptemp with rasp
 
-    root_article = ET.SubElement(root, 'article')
-    root_article.text = '\n'
+        # Create XML file for the final complete XML file
+        root= ET.Element('xml')
 
-    ## Getting text content from the simple xml path
-    celldata = ET.SubElement(root_article, 'text')
-    for _, element in ET.iterparse(simple_xml_path):
-        if element.tag == "text":
-            celldata.text = element.text
-            celldata.tail = '\n\n'
-    
-    ## Getting rasp content from the complete xml path
-    celldata = ET.SubElement(root_article, 'rasp')
-    et_rasp = ET.parse(rasp_xml_path).getroot()
-    celldata.extend(et_rasp)
+        root_article = ET.SubElement(root, 'article')
+        root_article.text = '\n'
 
-    # Writing and deleting unused files
-    tree = ET.ElementTree(root)
-    tree.write(folder_xml+file_name_no_ext+'.xml.rhaps', encoding='utf-8', xml_declaration=True)
-    os.remove('{0}.xml'.format(folder_xml+file_name_no_ext))
-    os.remove('{0}.xml.rasptemp'.format(folder_xml+file_name_no_ext))
+        ## Getting text content from the simple xml path
+        celldata = ET.SubElement(root_article, 'text')
+        for _, element in ET.iterparse(simple_xml_path):
+            if element.tag == "text":
+                celldata.text = element.text
+                celldata.tail = '\n\n'
+        
+        ## Getting rasp content from the complete xml path
+        celldata = ET.SubElement(root_article, 'rasp')
+        et_rasp = ET.parse(rasp_xml_path).getroot()
+        celldata.extend(et_rasp)
+
+        # Writing and deleting unused files
+        tree = ET.ElementTree(root)
+        tree.write(folder_xml+file_name_no_ext+'.xml.rhaps', encoding='utf-8', xml_declaration=True)
+        os.remove('{0}.xml'.format(folder_xml+file_name_no_ext))
+        os.remove('{0}.xml.rasptemp'.format(folder_xml+file_name_no_ext))
 
 
 if __name__ == '__main__':

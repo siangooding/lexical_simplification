@@ -1,0 +1,4 @@
+model_path: /home/ib431/Documents/projects/cam_mphil_project/lexical_simplification/gpu_attention.model
+two_grams_path: /home/ib431/Documents/projects/cam_mphil_project/lexical_simplification/ngram/w2_.txt
+complex_word_path: /home/ib431/Documents/projects/cam_mphil_project/lexical_simplification/complex_word.txt
+verb_folder: /home/ib431/Documents/projects/cam_mphil_project/lexical_simplification/verb/

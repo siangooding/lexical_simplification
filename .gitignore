@@ -22,3 +22,6 @@ params_pipeline.yaml
 lexical_simplifcation/private.py
 settings/private.py
 onestop/adv-text-all/
+rename.py
+OneStopEnglishCorpus/
+final_exp_mapping/mappings/

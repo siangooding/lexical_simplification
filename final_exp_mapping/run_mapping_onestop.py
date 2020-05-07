@@ -1,16 +1,17 @@
 # -*- coding: utf-8 -*-
 import pickle
 import argparse
+from tqdm import tqdm
 from os import listdir
 from settings.settings import ROOT_PATH
-from ..pipeline_readability import ReadabilityPipeline
+from pipeline_readability import ReadabilityPipeline
 
 REL_PATH_TO_KEY = {
-    'onestop/adv-text/': 'adv',
-    'onestop/mod-text/': 'mod',
-    'onestop/ele-text/': 'ele'
+    'OneStopEnglishCorpus/adv-text/': 'adv',
+    'OneStopEnglishCorpus/int-text/': 'int',
+    'OneStopEnglishCorpus/ele-text/': 'ele'
 }
-STORING = 'final_exp_mapping/mapping_one_stop_{0}.pkl'
+STORING = 'final_exp_mapping/mappings/mapping_one_stop_{0}.pkl'
 
 if __name__ == '__main__':
     ap = argparse.ArgumentParser()
@@ -22,13 +23,13 @@ if __name__ == '__main__':
     pipeline = ReadabilityPipeline()
     for rel_path, pointer in REL_PATH_TO_KEY.items():
         res_pickle[pointer] = {}
-        files = [ROOT_PATH + rel_path + file for file in listdir(ROOT_PATH + rel_path)]
-        for f in files:
+        files = listdir(ROOT_PATH + rel_path)
+        for f in tqdm(files):
             level, timestamps = \
-                ReadabilityPipeline.process_pipeline(text_path=f,
-                                                     folder_xml=ROOT_PATH+'onestop/{0}-text-xml/'.format(pointer),
-                                                     features=args["features"],
-                                                     train_outputfile="mapping-feats", simplified_path=None)
+                pipeline.process_pipeline(text_path=ROOT_PATH + rel_path + f,
+                                          folder_xml=ROOT_PATH+'OneStopEnglishCorpus/{0}-text-xml/'.format(pointer),
+                                          features=args["features"],
+                                          train_outputfile="mapping-feats", simplified_path=None)
             res_pickle[pointer][f] = {'level': level, 'timestamps': timestamps}
     
     with open(ROOT_PATH+STORING.format(args["features"]), 'wb') as outfile:
