@@ -55,7 +55,7 @@ class Sentence:
 
 class Word:
 
-	def __init__(self, sentence_object, index, cached_syn_path, nlp, elmo,
+	def __init__(self, sentence_object, index, cached_syn_path, zero_score_path, nlp, elmo,
 				 glove_model, word2vec_model):
 
 		pos_tags = sentence_object.pos_tags
@@ -73,6 +73,9 @@ class Word:
 
 		self.glove_model = glove_model
 		self.word2vec_model = word2vec_model
+
+		# To store words that had no rankings
+		self.zero_score_path = zero_score_path
  
 		# To cache the synonyms generated to speed up the process in the long term
 		self.cached_syn_path = cached_syn_path
@@ -186,13 +189,14 @@ class Word:
 			all_synonyms = [elt.name() for elt in all_synonyms]
 			to_keep = []
 			for elt in all_synonyms:
-				if elt.split('.')[0] != lemma:
+				if ' '.join(elt.split('.')[0].split('_')) != lemma:
 					to_keep.append(elt)
 			self.update_cached_synonyms(self.lemma, resource, to_keep)
 		
 
 		# Second, filtering on POS tag
 		helper = [synset.split('.') for synset in all_synonyms]
+		helper = [(elt[0].split('_'), elt[1], elt[2]) for synset in helper]
 			
 		if 'V' in self.pos:
 			self.synonyms += self.filter_synonyms_by_pos(synonyms=helper, 
@@ -333,6 +337,7 @@ class Word:
 		self.synonyms = [[[syn for syn in syn_l if syn not in ['', None]] 
 							for syn_l in self.synonyms]]
 		self.synonyms = [syn_l for sub_list in self.synonyms if sub_list != [] for syn_l in sub_list]
+		self.synonyms = [elt for elt in self.synonyms if elt != []]
 		self.synonyms = self.discard_synonyms(self.synonyms)
 	
 	def discard_synonyms(self, synonyms):
@@ -349,10 +354,17 @@ class Word:
 
 		return updated_synonyms
 	
+	def update_zero_score(self, synonyms_list):
+		f_write = open(self.zero_score_path, 'a+')
+		for syn in synonyms_list:
+			f_write.write('{0}\n'.format(syn))
+		f_write.close()
+	
 	def select_synonyms(self, selection_score, topn=5):
 		if len(self.synonyms) > topn:
 			self.synonyms = [syn[0] for syn in self.synonyms]
 			scored = [(word, selection_score.get_pre_selection_score(word)) for word in self.synonyms]
+			self.update_zero_score(synonyms_list=[elt[0] for elt in scored if elt[1] == 0.0])
 			scored = sorted(scored, key=lambda tup: tup[1], reverse=True)
 			print(scored)
 			self.synonyms = [[syn[0]] for syn in scored[:topn]]

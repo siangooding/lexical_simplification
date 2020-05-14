@@ -4,7 +4,7 @@ import argparse
 from tqdm import tqdm
 from os import listdir
 from settings.settings import ROOT_PATH
-from pipeline_readability import ReadabilityPipeline
+from pipeline.pipeline_readability import ReadabilityPipeline
 
 REL_PATH_TO_KEY = {
     'OneStopEnglishCorpus/adv-text/': 'adv',
@@ -20,16 +20,15 @@ if __name__ == '__main__':
     args = vars(ap.parse_args())
 
     res_pickle = {}
-    pipeline = ReadabilityPipeline()
+    pipeline = ReadabilityPipeline(include_simplification=False,
+                                   readability_config_path=ROOT_PATH + 'final_exp_mapping/mapping_readability_config.yaml')
     for rel_path, pointer in REL_PATH_TO_KEY.items():
         res_pickle[pointer] = {}
         files = listdir(ROOT_PATH + rel_path)
         for f in tqdm(files):
             level, timestamps = \
                 pipeline.process_pipeline(text_path=ROOT_PATH + rel_path + f,
-                                          folder_xml=ROOT_PATH+'OneStopEnglishCorpus/{0}-text-xml/'.format(pointer),
-                                          features=args["features"],
-                                          train_outputfile="mapping-feats", simplified_path=None)
+                                          folder_xml=ROOT_PATH+'OneStopEnglishCorpus/{0}-text-xml/'.format(pointer))
             res_pickle[pointer][f] = {'level': level, 'timestamps': timestamps}
     
     with open(ROOT_PATH+STORING.format(args["features"]), 'wb') as outfile:

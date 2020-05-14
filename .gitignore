@@ -25,3 +25,10 @@ onestop/adv-text-all/
 rename.py
 OneStopEnglishCorpus/
 final_exp_mapping/mappings/
+pipeline/
+final_exp_simplify/CEFR-LS.tsv
+final_exp_simplify/cefr-ls.txt
+final_exp_simplify/CEFR-LS.xml
+final_exp_mapping/figures/
+final_exp_simplify/zero_score.txt
+final_exp_simplify/zero_score_distinct.txt

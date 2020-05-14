@@ -1,0 +1,10 @@
+rel_readability_code_path: readability_code/
+rel_feature_path: readability_code/OneStop_features/
+rel_training_rhaps_path: readability_code/OneStop-modified/train/
+train_outputfile: train_onestop_feats
+features: T_L_SGR_NER
+corpora: onestop
+levels:
+  '1': 1
+  '2': 2
+  '3': 3

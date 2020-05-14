@@ -15,11 +15,11 @@ TO_DISCARD  = stop_words.union(punctuation)
 
 def get_key_val(row, tsv_path):
     if "CEFR_levels" in tsv_path:
-        key, val = row['a'], row['1']
+        key, val = row[0], int(row[1])
     elif "KET_list" in tsv_path:
-        key, val = row["'ll"], 2
+        key, val = row[0], 2
     else: 
-        key, val = row["1"], 3
+        key, val = row[0], 3
     return key, val
 
 

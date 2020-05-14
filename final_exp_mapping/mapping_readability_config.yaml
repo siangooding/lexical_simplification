@@ -1,0 +1,13 @@
+rel_readability_code_path: readability_code/
+rel_feature_path: readability_code/CEPP_features/
+rel_training_rhaps_path: readability_code/CEPP-rhaps/
+train_outputfile: mapping-feats
+features: T_L_SGR_NER
+corpora: cefr
+levels:
+  UNK: 0
+  KET: 1
+  PET: 2
+  FCE: 3
+  CAE: 4
+  CPE: 5

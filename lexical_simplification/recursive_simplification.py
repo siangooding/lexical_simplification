@@ -45,6 +45,10 @@ class RecursiveSimplification:
             config = yaml.load(file, Loader=yaml.FullLoader)
         
         self.cached_syn_path = ROOT_PATH + 'lexical_simplification/cached_synonyms.yaml'
+        self.no_simplification_path = ROOT_PATH + 'lexical_simplification/no_simplification.yaml'
+        self.no_simplification = self.load_yaml_file(path=self.no_simplification_path)
+        self.zero_score_path = ROOT_PATH + 'lexical_simplification/zero_score.txt'
+
         self.f_save = config["f_save"]
 
         self.include_salience = config["include_salience"]
@@ -59,8 +63,8 @@ class RecursiveSimplification:
         self.gamma = config["gamma"]
         self.delta = config["delta"]
 
-        self.init_scores()
         self.nlp = nlp
+        self.init_scores()
         self.elmo = elmo
         self.glove_model = glove_model
         self.word2vec_model = word2vec_model
@@ -71,6 +75,11 @@ class RecursiveSimplification:
                              'level_target': self.level_target, 'gamma': self.gamma, 'delta': self.delta,
                              'f_save': self.f_save}
     
+    def load_yaml_file(self, path):
+        with open(path) as yaml_file:
+            data = yaml.load(yaml_file, Loader=yaml.FullLoader)
+        return data
+    
     def init_scores(self):
         self.importance_score = ImportanceSimplifyScore(include_salience=self.include_salience,
                                                         alpha=self.alpha, beta=self.beta,
@@ -78,7 +87,7 @@ class RecursiveSimplification:
                                                         global_threshold=self.global_threshold, type_imp=self.type_imp)
         if self.level_target is not None:
             self.selection_score = SelectionScore(level_target=self.level_target,
-                                                  gamma=self.gamma, delta=self.delta)
+                                                  gamma=self.gamma, delta=self.delta, nlp=self.nlp)
     
     def set_param(self, param, value):
         if param in self.param_to_key:
@@ -109,6 +118,16 @@ class RecursiveSimplification:
             
             save_log.close()
     
+    def update_no_simplification(self, word_object):
+        if word_object.word not in self.no_simplification.keys():
+            self.no_simplification[word_object.word] = []
+        self.no_simplification[word_object.word].append({'synonyms': word_object.synonyms, 'sent': word_object.token_sent})
+
+        with open(self.no_simplification_path, "w") as f:
+            yaml.dump(self.no_simplification, f)
+		
+        self.no_simplification = self.load_yaml_file(self.no_simplification_path)
+    
     def apply_simplification(self, tokenized_text, ignore_list=[]):
         sentence_object = Sentence(tokenized_text, self.threshold, ignore_list, self.nlp, self.importance_score)
         print('tokenized sentence: {0}'.format(sentence_object.tokenized))
@@ -119,7 +138,8 @@ class RecursiveSimplification:
             
             # Word object from the most important word to simplify
             (index,_), *_ = sentence_object.complex_words
-            word_object = Word(sentence_object, index, self.cached_syn_path, self.nlp, self.elmo,
+            word_object = Word(sentence_object, index, self.cached_syn_path, self.zero_score_path,
+                               self.nlp, self.elmo,
                                self.glove_model, self.word2vec_model)
 
             print('Most important word to simplify\t {0}\t {1}\t'.format(word_object.word, word_object.pos))
@@ -133,6 +153,9 @@ class RecursiveSimplification:
             self.write_log(type_log='synonym', unit_object=word_object)
             print('===\n \n')
             synonym = word_object.get_ranked_synonyms()  # ranking
+
+            if (type(synonym) == list and len(synonym) == 1 and synonym[0] == word_object.word) or (synonym == []):
+                self.update_no_simplification(word_object=word_object)
 
             if synonym != []:
                 sentence_object.make_simplification(synonym, word_object.index)
