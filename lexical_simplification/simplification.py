@@ -172,12 +172,19 @@ class Word:
 					except:
 						self.synonyms += all_synonyms["adverb"]["syn"]
 			except:
-				total_list = []
-				for pos in all_synonyms:
-					for type_ in all_synonyms[pos]:
-						total_list.append(all_synonyms[pos][type_])
-				# taking everything as potential synonyms 
-				self.synonyms += [item for sublist in total_list for item in sublist]
+                            if type(all_synonyms) == list:
+                                self.synonyms += all_synonyms
+
+                            else:
+                                try:
+                                    total_list = []
+                                    for pos in all_synonyms:
+                                        for type_ in all_synonyms[pos]:
+                                            total_list.append(all_synonyms[pos][type_])
+				    # taking everything as potential synonyms 
+                                    self.synonyms += [item for sublist in total_list for item in sublist]
+                                except:
+                                    pass
 	
 
 	def get_synonym_wordnet(self, lemma, resource):
@@ -196,7 +203,6 @@ class Word:
 
 		# Second, filtering on POS tag
 		helper = [synset.split('.') for synset in all_synonyms]
-		helper = [(elt[0].split('_'), elt[1], elt[2]) for synset in helper]
 			
 		if 'V' in self.pos:
 			self.synonyms += self.filter_synonyms_by_pos(synonyms=helper, 

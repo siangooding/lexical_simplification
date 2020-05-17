@@ -78,6 +78,8 @@ class RecursiveSimplification:
     def load_yaml_file(self, path):
         with open(path) as yaml_file:
             data = yaml.load(yaml_file, Loader=yaml.FullLoader)
+        if data is None:
+            data = {}
         return data
     
     def init_scores(self):

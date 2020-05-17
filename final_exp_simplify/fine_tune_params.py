@@ -279,12 +279,12 @@ if __name__ == '__main__':
         
         if args["param"] == "cascade":
             analyzer = SentencesCEFRLS(include_salience=True, type_imp="cascade",
-                                   salience_threshold=args["salience_threshold"])
+                                       salience_threshold=args["salience_threshold"])
             analyzer.get_levelled_scores()
         
         if args["param"] == "combined":
             analyzer = SentencesCEFRLS(include_salience=True, alpha=args["alpha"],
-                                   beta=args["beta"], type_imp="combined")
+                                       beta=args["beta"], type_imp="combined")
             analyzer.get_levelled_scores()
     
     if args["type"] == "save":
@@ -309,6 +309,7 @@ if __name__ == '__main__':
         if args["param"] == "combined":
             print('Saving results for combined scores')
             params = [(0.2, 0.8), (0.3, 0.7), (0.4, 0.6), (0.5, 0.5), (0.6, 0.4), (0.7, 0.3), (0.8, 0.2)]
+            params = [(0, 1), (0.1, 0.9), (0.9, 0.1), (1, 0)]
             for (alpha, beta) in params:
                 test = SentencesCEFRLS(alpha=alpha, beta=beta, type_imp="combined",
                                        include_salience=True, global_threshold=0)

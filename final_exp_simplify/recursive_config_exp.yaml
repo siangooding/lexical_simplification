@@ -1,11 +1,11 @@
 f_save: 
-include_salience: False
+include_salience: True
 threshold: 0.5
-type_imp: 
+type_imp: cascade
 alpha: 
 beta: 
 global_threshold: 
-salience_threshold: 
-level_target: 
-gamma: 
-delta: 
+salience_threshold: 0.05
+level_target: 2
+gamma: 0.5
+delta: 0.5
