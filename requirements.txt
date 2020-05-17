@@ -7,3 +7,8 @@ requests==2.18.4
 scipy==1.1.0
 inflect==0.2.4
 allennlp==0.8.0
+stanfordnlp==0.2.0
+gensim==3.8.1
+scikit-learn==0.21.3
+pyyaml
+spacy==2.0.18
