@@ -81,7 +81,9 @@ class Word:
 
 		import requests
 		
-		r = requests.get(url='http://words.bighugelabs.com/api/2/d8e9e06ab1208c4a35dc91b16f4f42a3/'+self.lemma+'/json')
+		THEASURUS_KEY = "Get your theasurus key from https://words.bighugelabs.com/site/api"
+		
+		r = requests.get(url='http://words.bighugelabs.com/api/2/'+THEASURUS_KEY+'/'+self.lemma+'/json')
 		if r.status_code != 404:
 			try:
 				if 'V' in self.pos:
