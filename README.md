@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 You will need to generate your own API key for Big Huge Theasurus: https://words.bighugelabs.com/site/api
 
-This key goes in simplification.py where THEASURUS_KEY is definied. 
+This key goes in simplification.py where THEASURUS_KEY is defined. 
 
 ## Usage
 The recursive simplification function is defined in [recursive_simplification.py](./recursive_simplification.py) alongside examples of applying the system to sentences. 
